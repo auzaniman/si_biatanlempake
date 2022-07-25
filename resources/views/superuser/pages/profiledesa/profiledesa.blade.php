@@ -134,7 +134,7 @@ Profil Desa
   </div>
 </div>
 
-<div class="row mb-sm-4">
+{{-- <div class="row mb-sm-4">
   <div class="col-xl-6 col-sm-6 mb-xl-0 mb-4">
     <div class="card">
       <div class="card-body p-3">
@@ -188,7 +188,7 @@ Profil Desa
       </div>
     </div>
   </div>
-</div>
+</div> --}}
 
 {{-- Chart --}}
 <div class="row mt-4">
