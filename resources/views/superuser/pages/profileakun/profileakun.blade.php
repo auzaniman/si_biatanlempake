@@ -7,7 +7,7 @@ Profil Akun
 @section('content')
 <div class="row">
   <div class="col-lg-12 mb-lg-0 mb-4">
-    <div class="card card-background">
+    <div class="card card-background z-index-0">
       <div class="full-background" style="background-image: url('/frontend/assets/img/2.jpg')"></div>
       <div class="card-body text-left">
         <h4 class="text-white">Selamat Datang di Desa Biatan Lempake</h4>

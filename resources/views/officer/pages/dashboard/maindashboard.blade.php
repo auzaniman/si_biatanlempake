@@ -7,7 +7,7 @@ Dashboard Officer
 @section('content')
 <div class="row mb-4">
   <div class="col-lg-12">
-    <div class="card card-background">
+    <div class="card card-background z-index-0">
       <div class="full-background" style="background-image: url('https://images.unsplash.com/photo-1541451378359-acdede43fdf4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=934&amp;q=80')"></div>
       <div class="card-body text-left">
         <h4 class="text-white">Selamat Datang Admin Desa Biatan Lempake</h4>
