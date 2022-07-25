@@ -45,7 +45,7 @@ Profil Desa
 {{-- STATISTIK DESA --}}
 
 {{-- Card Count --}}
-<h5 class="mt-4 mb-2">Statistik Desa Warungboto</h5>
+<h5 class="mt-4 mb-2">Statistik Desa Biatan Lempake</h5>
 
 <div class="row mb-sm-4">
   <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">

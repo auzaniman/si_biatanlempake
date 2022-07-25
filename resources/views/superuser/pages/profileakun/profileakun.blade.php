@@ -10,8 +10,8 @@ Profil Akun
     <div class="card card-background">
       <div class="full-background" style="background-image: url('/frontend/assets/img/2.jpg')"></div>
       <div class="card-body text-left">
-        <h4 class="text-white">Selamat Datang di Desa Warungboto</h4>
-        <p class=" text-white bold">Awali harimu dengan senyum. Selamat melakukan aktifitas warga desa warungboto. Kami melayani sepenuh hati.</p>
+        <h4 class="text-white">Selamat Datang di Desa Biatan Lempake</h4>
+        <p class=" text-white bold">Awali harimu dengan senyum. Selamat melakukan aktifitas warga desa biatan lempake. Kami melayani sepenuh hati.</p>
       </div>
     </div>
   </div>
