@@ -16,9 +16,9 @@ class UserSeeder extends Seeder
     {
       $user = [
         [
-          'name' => 'Desa Juara',
-          'email' => 'desajuara@gmail.com',
-          'username' => 'desajuara',
+          'name' => 'Biatan Lempake',
+          'email' => 'biatanlempake@gmail.com',
+          'username' => 'biatanlempake',
           'tempat_lahir' => 'Yogya',
           'tanggal_lahir' => '04/25/1998',
           'nik' => '1234567890123457',
@@ -26,7 +26,7 @@ class UserSeeder extends Seeder
           'jabatan_keluarga' => 'Kepala Keluarga',
           'kelamin' => 'Laki-Laki',
           'pendidikan' => 'S1',
-          'jurusan' => 'Aplikasi Desa Juara',
+          'jurusan' => 'Aplikasi Biatan Lempake',
           'pekerjaan' => 'Wiraswasta',
           'agama' => 'Islam',
           'perkawinan' => 'Menikah',
@@ -39,7 +39,7 @@ class UserSeeder extends Seeder
           'rt_ktp' => 'RT1',
           'rw_ktp' => 'RW2',
           'no_telpon' => '089607575813',
-          'password' => bcrypt('desajuara12345')
+          'password' => bcrypt('biatanlempake12345')
         ],
       ];
 

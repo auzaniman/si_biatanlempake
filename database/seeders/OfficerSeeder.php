@@ -16,8 +16,8 @@ class OfficerSeeder extends Seeder
     public function run()
     {
         $officer = [
-          'name' => 'desajuara',
-          'email' => 'desajuara@desjur.com',
+          'name' => 'biatanlempake',
+          'email' => 'biatanlempake@desjur.com',
           'username' => 'auzaniman',
           'ttl' => 'Yogya 12 juni',
           'nik' => '1234567890123457',
@@ -34,8 +34,8 @@ class OfficerSeeder extends Seeder
           'kecamatan' => 'Umbulharjo',
           'no_telpon' => '089607575813',
           'no_wa' => '089607575813',
-          'pendidikan' => 'Aplikasi Desa Juara',
-          'password' => bcrypt('desajuara12345')
+          'pendidikan' => 'Aplikasi Biatan Lempake',
+          'password' => bcrypt('biatanlempake12345')
         ];
 
         Officer::insert($officer);

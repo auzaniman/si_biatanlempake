@@ -1,7 +1,7 @@
 @extends('home.layouts.app')
 
 @section('title')
-Desa Juara
+Biatan Lempake
 @endsection
 
 @section('content')
