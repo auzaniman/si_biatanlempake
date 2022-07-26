@@ -8,11 +8,11 @@ Profil Desa
 {{-- Foto Kampung --}}
 <div class="row">
   <div class="col-lg-12 mb-lg-0 mb-4">
-    <div class="card z-index-2 h-100">
+    <div class="card h-100">
       <div class="card-body p-0 bg-transparent">
         <div class="row">
           <div class="col-lg-12">
-            <img src="{{url('frontend/assets/img/2.jpg')}}" class="img-fluid border-radius-xl" alt="foto kampung">
+            <img src="{{url('frontend/assets/img/1.png')}}" class="img-fluid border-radius-xl" alt="foto kampung">
           </div>
         </div>
       </div>
@@ -23,12 +23,14 @@ Profil Desa
 {{-- Video dan Deskripsi --}}
 <div class="row mt-4">
   <div class="col-lg-12 mb-lg-0 mb-4">
-    <div class="card z-index-2 h-100">
+    <div class="card h-100">
       <div class="card-body pb-0 pt-3 bg-transparent">
         <div class="row">
-          <div class="col-lg-5">
+          <div class="col-lg-5 mb-3">
             <h6 class="text-capitalize">Video Desa</h6>
-            <iframe src="https://www.youtube.com/watch?v=7PPgjM0OzaU" frameborder="0"></iframe>
+            <div class="ratio ratio-16x9">
+              <iframe width="300" height="220" src="https://www.youtube.com/embed/7PPgjM0OzaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
           <div class="col-lg-7">
             <h6 class="text-capitalize">Sejarah Kampung</h6>
@@ -193,7 +195,7 @@ Profil Desa
 {{-- Chart --}}
 <div class="row mt-4">
   <div class="col-lg-4 mb-lg-0 mb-4">
-    <div class="card z-index-2 h-100">
+    <div class="card h-100">
       {{-- Chart --}}
       <div class="card-header pb-0 pt-3 bg-transparent">
         <h6 class="text-capitalize mb-0">Jumlah Penduduk Berdasarkan RT</h6>
@@ -207,7 +209,7 @@ Profil Desa
     </div>
   </div>
   <div class="col-lg-4 mb-lg-0 mb-4">
-    <div class="card z-index-2 h-100">
+    <div class="card h-100">
       <div class="card-header pb-0 pt-3 bg-transparent">
         <h6 class="text-capitalize mb-0">Jumlah Pendudukan Berdasarkan Tingkat Pendidikan</h6>
       </div>
@@ -219,7 +221,7 @@ Profil Desa
     </div>
   </div>
   <div class="col-lg-4 mb-lg-0 mb-4">
-    <div class="card z-index-2 h-100">
+    <div class="card h-100">
       <div class="card-header pb-0 pt-3 bg-transparent">
         <h6 class="text-capitalize mb-0">Jumlah Pendudukan Berdasarkan Mata Pencaharian</h6>
       </div>

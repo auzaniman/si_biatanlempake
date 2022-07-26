@@ -54,22 +54,6 @@
       {{-- Sosial Media --}}
       <ul class="navbar-nav align-items-lg-center ml-lg-auto">
 
-        @auth
-        <li class="nav-item">
-          <form action="{{url('logout')}}" method="POST">
-            @csrf
-            <button class="btn btn-danger btn-icon">
-              <a>
-                <span class="btn-inner--icon">
-                  <i class="fa fa-sign-out"></i>
-                </span>
-                <span class="nav-link-inner--text">Keluar</span>
-              </a>
-            </button>
-          </form>
-        </li>
-        @endauth
-
         @if (\Request::is('/'))
           @guest
           <li class="nav-item mb-2 mt-2">
@@ -100,6 +84,22 @@
           </li>
           @endguest
         @endif
+
+        @auth
+        <li class="nav-item">
+          <form action="{{url('logout')}}" method="POST">
+            @csrf
+            <button class="btn btn-danger btn-icon">
+              <a>
+                <span class="btn-inner--icon">
+                  <i class="fa fa-sign-out"></i>
+                </span>
+                <span class="nav-link-inner--text">Keluar</span>
+              </a>
+            </button>
+          </form>
+        </li>
+        @endauth
 
         @if (\Request::is('login'))
           @guest

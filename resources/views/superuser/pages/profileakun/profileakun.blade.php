@@ -8,10 +8,10 @@ Profil Akun
 <div class="row">
   <div class="col-lg-12 mb-lg-0">
     <div class="card card-background z-index-0">
-      <div class="full-background" style="background-image: url('/frontend/assets/img/2.jpg')"></div>
+      <div class="full-background" style="background-image: url('/frontend/assets/img/1.png')"></div>
       <div class="card-body text-left">
         <h4 class="text-white">Selamat Datang di Desa Biatan Lempake</h4>
-        <p class=" text-white bold">Awali harimu dengan senyum. Selamat melakukan aktifitas warga desa biatan lempake. Kami melayani sepenuh hati.</p>
+        <p class=" text-white bold mb-0">Awali harimu dengan senyum. Selamat melakukan aktifitas warga desa biatan lempake. Kami melayani sepenuh hati.</p>
       </div>
     </div>
   </div>
