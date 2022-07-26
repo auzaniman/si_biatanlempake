@@ -20,7 +20,7 @@ Potensi Tantangan
 <div class="row mt-4">
   <h5 class="ms-3">Potensi</h5>
   <div class="col-lg-4 mb-lg-0 mb-4">
-    <div class="card z-index-2 h-100">
+    <div class="card  h-100">
       <div class="card-header bg-transparent p-0 mx-3 mt-3 position-relative z-index-1">
         <a href="" class="d-block">
           <img src="{{url('backend/assets/img/img1.jpg')}}" class="img-fluid border-radius-xl mb-3" width="300" height="300" alt="ilustrasi sampah">
@@ -38,7 +38,7 @@ Potensi Tantangan
     </div>
   </div>
   <div class="col-lg-4 mb-lg-0 mb-4">
-    <div class="card z-index-2 h-100">
+    <div class="card  h-100">
       <div class="card-header bg-transparent p-0 mx-3 mt-3 position-relative z-index-1">
         <a href="" class="d-block">
           <img src="{{url('backend/assets/img/img2.jpg')}}" class="img-fluid border-radius-xl mb-3" width="300" height="300" alt="ilustrasi sampah">
@@ -59,7 +59,7 @@ Potensi Tantangan
 <div class="row mt-4">
   <h5 class="ms-3">Tantangan</h5>
   <div class="col-lg-4 mb-lg-0 mb-4">
-    <div class="card z-index-2 h-100">
+    <div class="card  h-100">
       <div class="card-header bg-transparent p-0 mx-3 mt-3 position-relative z-index-1">
         <a href="" class="d-block">
           <img src="{{url('backend/assets/img/img3.jpg')}}" class="img-fluid border-radius-xl mb-3" width="300" height="300" alt="ilustrasi sampah">
@@ -77,7 +77,7 @@ Potensi Tantangan
     </div>
   </div>
   <div class="col-lg-4 mb-lg-0 mb-4">
-    <div class="card z-index-2 h-100">
+    <div class="card  h-100">
       <div class="card-header bg-transparent p-0 mx-3 mt-3 position-relative z-index-1">
         <a href="" class="d-block">
           <img src="{{url('backend/assets/img/img3.jpg')}}" class="img-fluid border-radius-xl mb-3" width="300" height="300" alt="ilustrasi sampah">

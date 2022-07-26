@@ -170,7 +170,7 @@ Keuangan
 </div>
 <div class="row mt-4">
   <div class="col-lg-6 mb-lg-0 mb-4">
-    <div class="card z-index-2 h-100">
+    <div class="card  h-100">
       <div class="card-header pb-0 pt-3 bg-transparent">
         <h6 class="text-capitalize mb-0">Sumber Pendapatan Desa</h6>
       </div>
@@ -182,7 +182,7 @@ Keuangan
     </div>
   </div>
   <div class="col-lg-6 mb-lg-0 mb-4">
-    <div class="card z-index-2 h-100">
+    <div class="card  h-100">
       <div class="card-header pb-0 pt-3 bg-transparent">
         <h6 class="text-capitalize mb-0">Pengeluaran Desa</h6>
       </div>
