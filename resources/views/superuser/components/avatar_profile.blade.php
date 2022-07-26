@@ -1,7 +1,7 @@
  <div class="card">
   <div class="card-body p-3">
-    <div class="row gx-4">
-      <div class="col-auto">
+    <div class="row justify-content-center">
+      <div class="col-lg-auto col-4 text-center">
         <div class="avatar avatar-xl position-relative">
           @if (($foto) != null)
             @if ($foto->foto_profile != null)
@@ -17,7 +17,7 @@
           @endif
         </div>
       </div>
-      <div class="col-6 my-auto">
+      <div class="col-lg-6 col-8 my-auto">
         <div class="h-100">
           <h5 class="mb-1">
             {{$user->name}}
@@ -36,7 +36,7 @@
           </p>
         </div>
       </div>
-      <div class="col-auto my-sm-auto ms-sm-auto me-5 mt-3">
+      <div class="col-auto my-sm-auto ms-sm-auto me-sm-auto mt-3">
         <div class="dropdown">
           <a href="#" class="btn mb-0 bg-primary text-white dropdown-toggle " data-bs-toggle="dropdown" id="navbarDropdownMenuLink2">
               @if (\Request::is('user'))

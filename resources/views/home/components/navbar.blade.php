@@ -53,30 +53,6 @@
 
       {{-- Sosial Media --}}
       <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-        <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://www.facebook.com" target="_blank" data-toggle="tooltip" title="Like us on Facebook">
-            <i class="fa fa-facebook-square"></i>
-            <span class="nav-link-inner--text d-lg-none">Facebook</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://www.instagram.com" target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
-            <i class="fa fa-instagram"></i>
-            <span class="nav-link-inner--text d-lg-none">Instagram</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://twitter.com" target="_blank" data-toggle="tooltip" title="Follow us on Twitter">
-            <i class="fa fa-twitter-square"></i>
-            <span class="nav-link-inner--text d-lg-none">Twitter</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://wa.me/81225258383" target="_blank" data-toggle="tooltip" title="Contact us on Whatsapp">
-            <i class="fa fa-whatsapp"></i>
-            <span class="nav-link-inner--text d-lg-none">Whatsapp</span>
-          </a>
-        </li>
 
         @auth
         <li class="nav-item">
@@ -96,15 +72,31 @@
 
         @if (\Request::is('/'))
           @guest
+          <li class="nav-item mb-2 mt-2">
+            <a href="{{route('login')}}" class="btn btn-warning btn-icon">
+              <span class="btn-inner--icon"><i class="fa fa-sign-in"></i></span>
+              <span class="btn-inner--text font-weight-bold">Masuk</span>
+            </a>
+          </li>
+          @endguest
+          @auth
           <li class="nav-item">
-              <button class="btn btn-success btn-icon">
-                <a href="{{route('register')}}" class="text-decoration-none text-reset">
-                  <span class="btn-inner--icon">
-                    <i class="fa fa-user-plus"></i>
-                  </span>
-                  <span class="nav-link-inner--text">Daftar</span>
-                </a>
-              </button>
+            <a href="{{route('dashboard')}}" class="btn btn-warning btn-icon">
+              <span class="btn-inner--icon"><i class="fa fa-sign-in"></i></span>
+              <span class="btn-inner--text font-weight-bold">Dashboard</span>
+            </a>
+          </li>
+          @endauth
+          @guest
+          <li class="nav-item">
+            <button class="btn btn-success btn-icon">
+              <a href="{{route('register')}}" class="text-decoration-none text-reset">
+                <span class="btn-inner--icon">
+                  <i class="fa fa-user-plus"></i>
+                </span>
+                <span class="nav-link-inner--text">Daftar</span>
+              </a>
+            </button>
           </li>
           @endguest
         @endif

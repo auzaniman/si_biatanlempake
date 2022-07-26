@@ -28,7 +28,7 @@ Profil Desa
         <div class="row">
           <div class="col-lg-5">
             <h6 class="text-capitalize">Video Desa</h6>
-
+            <iframe src="https://www.youtube.com/watch?v=7PPgjM0OzaU" frameborder="0"></iframe>
           </div>
           <div class="col-lg-7">
             <h6 class="text-capitalize">Sejarah Kampung</h6>

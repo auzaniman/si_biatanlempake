@@ -28,15 +28,15 @@
   </div>
   @endif
   {{-- End Alert --}}
+
   <div class="page-header">
-    <div class="container shape-container d-flex align-items-center py-lg">
-      <img src="{{url('frontend/assets/img/1.jpg')}}" class="img-hero" alt="">
+    <div class="container shape-container d-flex align-items-center py-lg-7 py-4">
+      <img src="{{url('frontend/assets/img/4.jpg')}}" class="img-hero" alt="">
       <div class="col px-0">
         <div class="row align-items-center justify-content-center">
-          <div class="col-lg-12 text-center">
-            <h1 class="text-white display-1">Aplikasi sahabat desa menuju era digital.</h1>
-            <h2 class="display-3 font-weight-normal text-white">"Melihat lebih luas"</h2>
-            <div class="btn-wrapper mt-4">
+          <div class="col-lg-12 text-center pt-lg-4 mt-lg-5">
+            <h1 class="text-white display-1">Selamat datang di laman Kampung Biatan Lempake.</h1>
+            <div class="btn-wrapper mt-4 d-block d-lg-none">
               @guest
               <a href="{{route('login')}}" class="btn btn-warning btn-icon mt-3 mb-sm-0">
                 <span class="btn-inner--icon"><i class="fa fa-sign-in" style="font-size: 1rem"></i></span>
