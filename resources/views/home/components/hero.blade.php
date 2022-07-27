@@ -31,7 +31,7 @@
 
   <div class="page-header">
     <div class="container shape-container d-flex align-items-center py-lg-7 py-4">
-      <img src="{{url('frontend/assets/img/4.jpg')}}" class="img-hero" alt="">
+      <img src="{{url('frontend/assets/img/3.jpg')}}" class="img-hero" alt="">
       <div class="col px-0">
         <div class="row align-items-center justify-content-center">
           <div class="col-lg-12 text-center pt-lg-4 mt-lg-5">

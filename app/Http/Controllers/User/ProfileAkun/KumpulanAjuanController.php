@@ -6,10 +6,6 @@ use App\Http\Controllers\Controller;
 use App\Models\AdministrasiModel;
 use App\Models\User;
 use App\Models\FotoProfileModel;
-use App\Models\Province;
-use App\Models\Regency;
-use App\Models\District;
-use App\Models\Village;
 use App\Models\NonPerizinanModel;
 use App\Models\PerizinanModel;
 use Illuminate\Support\Facades\Auth;
@@ -20,49 +16,50 @@ class KumpulanAjuanController extends Controller
 {
   public function kumpulan_ajuan()
   {
-    $user = User::where('id', '=', Auth::user()->id)->first();
     $foto = FotoProfileModel::where('user_id', '=', Auth::user()->id)->first();
     $administrasi = AdministrasiModel::where('user_id', '=', Auth::user()->id)->get();
     $perizinan = PerizinanModel::where('user_id', '=', Auth::user()->id)->get();
     $nonperizinan = NonPerizinanModel::where('user_id', '=', Auth::user()->id)->get();
 
-    $provinsi = Province::select('name')
-        ->where('id', '=', Auth::user()->provinsi_ktp)
-        ->first();
-
-    $kota = Regency::select('name')
-      ->where('id', '=', Auth::user()->kota_ktp)
+    $data = User::select('users.*','pk.name as provinsiktp','pd.name as provinsidom','rk.name as kotaktp','rd.name as kotadom', 'dk.name as kecktp', 'dd.name as kecdom', 'vk.name as desaktp', 'vd.name as desadom')
+      ->join('provinces as pk', 'users.provinsi_ktp', 'pk.id')
+      ->join('regencies as rk', 'users.kota_ktp', 'rk.id')
+      ->join('districts as dk', 'users.kecamatan_ktp', 'dk.id')
+      ->join('villages as vk', 'users.desa_ktp', 'vk.id')
+      ->leftJoin('provinces as pd', 'users.provinsi_domisili', 'pd.id')
+      ->leftJoin('regencies as rd', 'users.kota_domisili', 'rd.id')
+      ->leftJoin('districts as dd', 'users.kecamatan_domisili', 'dd.id')
+      ->leftJoin('villages as vd', 'users.desa_domisili', 'vd.id')
+      ->where('users.id', auth()->user()->id)
       ->first();
-
-    $kecamatan = District::select('name')
-      ->where('id', '=', Auth::user()->kecamatan_ktp)
-      ->first();
-
-    $desa = Village::select('name')
-        ->where('id', '=', Auth::user()->desa_ktp)
-        ->first();
 
     return view('superuser.pages.profileakun.ajuan', compact(
-      'user',
+      'data',
       'foto',
       'administrasi',
       'perizinan',
       'nonperizinan',
-      'provinsi',
-      'kota',
-      'kecamatan',
-      'desa',
     ));
   }
 
   // Bidang Admnistrasi
   public function kumpulan_administrasi()
   {
-    $user = User::where('id', '=', Auth::user()->id)->first();
     $foto = FotoProfileModel::where('user_id', '=', Auth::user()->id)->first();
+    $data = User::select('users.*','pk.name as provinsiktp','pd.name as provinsidom','rk.name as kotaktp','rd.name as kotadom', 'dk.name as kecktp', 'dd.name as kecdom', 'vk.name as desaktp', 'vd.name as desadom')
+      ->join('provinces as pk', 'users.provinsi_ktp', 'pk.id')
+      ->join('regencies as rk', 'users.kota_ktp', 'rk.id')
+      ->join('districts as dk', 'users.kecamatan_ktp', 'dk.id')
+      ->join('villages as vk', 'users.desa_ktp', 'vk.id')
+      ->leftJoin('provinces as pd', 'users.provinsi_domisili', 'pd.id')
+      ->leftJoin('regencies as rd', 'users.kota_domisili', 'rd.id')
+      ->leftJoin('districts as dd', 'users.kecamatan_domisili', 'dd.id')
+      ->leftJoin('villages as vd', 'users.desa_domisili', 'vd.id')
+      ->where('users.id', auth()->user()->id)
+      ->first();
 
     return view('superuser.pages.profileakun.sort_ajuan.sort_administrasi', [
-      'user' => $user,
+      'data' => $data,
       'foto' =>$foto,
     ]);
   }
@@ -169,11 +166,21 @@ class KumpulanAjuanController extends Controller
   // Bidang Perizinan
   public function kumpulan_perizinan()
   {
-    $user = User::where('id', '=', Auth::user()->id)->first();
     $foto = FotoProfileModel::where('user_id', '=', Auth::user()->id)->first();
+    $data = User::select('users.*','pk.name as provinsiktp','pd.name as provinsidom','rk.name as kotaktp','rd.name as kotadom', 'dk.name as kecktp', 'dd.name as kecdom', 'vk.name as desaktp', 'vd.name as desadom')
+      ->join('provinces as pk', 'users.provinsi_ktp', 'pk.id')
+      ->join('regencies as rk', 'users.kota_ktp', 'rk.id')
+      ->join('districts as dk', 'users.kecamatan_ktp', 'dk.id')
+      ->join('villages as vk', 'users.desa_ktp', 'vk.id')
+      ->leftJoin('provinces as pd', 'users.provinsi_domisili', 'pd.id')
+      ->leftJoin('regencies as rd', 'users.kota_domisili', 'rd.id')
+      ->leftJoin('districts as dd', 'users.kecamatan_domisili', 'dd.id')
+      ->leftJoin('villages as vd', 'users.desa_domisili', 'vd.id')
+      ->where('users.id', auth()->user()->id)
+      ->first();
 
     return view('superuser.pages.profileakun.sort_ajuan.sort_perizinan', [
-      'user' => $user,
+      'data' => $data,
       'foto' =>$foto,
     ]);
   }
@@ -279,11 +286,21 @@ class KumpulanAjuanController extends Controller
   // Bidang NonPerizinan
   public function kumpulan_nonperizinan()
   {
-    $user = User::where('id', '=', Auth::user()->id)->first();
     $foto = FotoProfileModel::where('user_id', '=', Auth::user()->id)->first();
+    $data = User::select('users.*','pk.name as provinsiktp','pd.name as provinsidom','rk.name as kotaktp','rd.name as kotadom', 'dk.name as kecktp', 'dd.name as kecdom', 'vk.name as desaktp', 'vd.name as desadom')
+      ->join('provinces as pk', 'users.provinsi_ktp', 'pk.id')
+      ->join('regencies as rk', 'users.kota_ktp', 'rk.id')
+      ->join('districts as dk', 'users.kecamatan_ktp', 'dk.id')
+      ->join('villages as vk', 'users.desa_ktp', 'vk.id')
+      ->leftJoin('provinces as pd', 'users.provinsi_domisili', 'pd.id')
+      ->leftJoin('regencies as rd', 'users.kota_domisili', 'rd.id')
+      ->leftJoin('districts as dd', 'users.kecamatan_domisili', 'dd.id')
+      ->leftJoin('villages as vd', 'users.desa_domisili', 'vd.id')
+      ->where('users.id', auth()->user()->id)
+      ->first();
 
     return view('superuser.pages.profileakun.sort_ajuan.sort_nonperizinan', [
-      'user' => $user,
+      'data' => $data,
       'foto' =>$foto,
     ]);
   }
@@ -415,11 +432,21 @@ class KumpulanAjuanController extends Controller
   // Bidang Pertanahan
   public function kumpulan_pertanahan()
   {
-    $user = User::where('id', '=', Auth::user()->id)->first();
     $foto = FotoProfileModel::where('user_id', '=', Auth::user()->id)->first();
+    $data = User::select('users.*','pk.name as provinsiktp','pd.name as provinsidom','rk.name as kotaktp','rd.name as kotadom', 'dk.name as kecktp', 'dd.name as kecdom', 'vk.name as desaktp', 'vd.name as desadom')
+      ->join('provinces as pk', 'users.provinsi_ktp', 'pk.id')
+      ->join('regencies as rk', 'users.kota_ktp', 'rk.id')
+      ->join('districts as dk', 'users.kecamatan_ktp', 'dk.id')
+      ->join('villages as vk', 'users.desa_ktp', 'vk.id')
+      ->leftJoin('provinces as pd', 'users.provinsi_domisili', 'pd.id')
+      ->leftJoin('regencies as rd', 'users.kota_domisili', 'rd.id')
+      ->leftJoin('districts as dd', 'users.kecamatan_domisili', 'dd.id')
+      ->leftJoin('villages as vd', 'users.desa_domisili', 'vd.id')
+      ->where('users.id', auth()->user()->id)
+      ->first();
 
     return view('superuser.pages.profileakun.sort_ajuan.sort_pertanahan', [
-      'user' => $user,
+      'data' => $data,
       'foto' =>$foto,
     ]);
   }

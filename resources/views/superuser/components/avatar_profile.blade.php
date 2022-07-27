@@ -20,18 +20,18 @@
       <div class="col-lg-6 col-8 my-auto">
         <div class="h-100">
           <h5 class="mb-1">
-            {{$user->name}}
+            {{$data->name}}
           </h5>
           <p class="mb-0 font-weight-bold text-sm">
-            {{$user->rt_ktp}}
-            {{$user->rw_ktp}},
-            @if ($desa->name = null && $kecamatan->name = null && $kota->name = null && $provinsi->name = null)
+            {{$data->rt_ktp}}
+            {{$data->rw_ktp}},
+            @if ($data->desaktp = null && $data->kecktp = null && $data->kotaktp = null && $data->provinsiktp = null)
 
             @else
-              {{$desa->name}}
-              {{$kecamatan->name}},
-              {{$kota->name}},
-              {{$provinsi->name}}
+              {{$data->desaktp}}
+              {{$data->kecktp}},
+              {{$data->kotaktp}},
+              {{$data->provinsiktp}}
             @endif
           </p>
         </div>

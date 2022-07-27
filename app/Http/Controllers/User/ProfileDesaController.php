@@ -14,35 +14,37 @@ class ProfileDesaController extends Controller
   {
     $charts = ChartBar::all();
 
-    $total_warga = User::select('id')->count();
     $total_kk = User::distinct()->count('kk');
-    $umbulharjo = User::where('kecamatan_ktp', '=', 1)->count();
-    $warga_luar = User::where('kelamin', 'Laki-Laki')->count();
+    $total_warga = User::selectRaw("COUNT(CASE WHEN desa_ktp = 6405110005  THEN 1 END) AS ktp")
+    ->selectRaw("COUNT(CASE WHEN desa_domisili = 6405110005 THEN 1 END) AS domisili")
+    ->first();
 
-    $warga_laki = User::where('kelamin', 'Laki-Laki')->count();
-    $warga_perempuan = User::where('kelamin', 'Perempuan')->count();
+    $kelamin = User::selectRaw("COUNT(CASE WHEN kelamin = 'Laki-Laki'  THEN 1 END) AS laki")
+    ->selectRaw("COUNT(CASE WHEN kelamin = 'Perempuan'  THEN 1 END) AS perempuan")
+    ->first();
 
-    $warga_sd = User::where('pendidikan', 'SD')->count();
-    $warga_smp = User::where('pendidikan', 'SMP')->count();
-    $warga_sma = User::where('pendidikan', 'SMA')->count();
-    $warga_d1 = User::where('pendidikan', 'D1')->count();
-    $warga_d2 = User::where('pendidikan', 'D2')->count();
-    $warga_d3 = User::where('pendidikan', 'D3')->count();
-    $warga_d4 = User::where('pendidikan', 'D4')->count();
-    $warga_s1 = User::where('pendidikan', 'S1')->count();
-    $warga_s2 = User::where('pendidikan', 'S2')->count();
-    $warga_s3 = User::where('pendidikan', 'S3')->count();
+    $countpendidikan = User::selectRaw("COUNT(CASE WHEN pendidikan = 'SD'  THEN 1 END) AS sd")
+      ->selectRaw("COUNT(CASE WHEN pendidikan = 'SMP' THEN 1 END) AS smp")
+      ->selectRaw("COUNT(CASE WHEN pendidikan = 'SMA' THEN 1 END) AS sma")
+      ->selectRaw("COUNT(CASE WHEN pendidikan = 'D1'  THEN 1 END) AS d1")
+      ->selectRaw("COUNT(CASE WHEN pendidikan = 'D2'  THEN 1 END) AS d2")
+      ->selectRaw("COUNT(CASE WHEN pendidikan = 'D3'  THEN 1 END) AS d3")
+      ->selectRaw("COUNT(CASE WHEN pendidikan = 'D4'  THEN 1 END) AS d4")
+      ->selectRaw("COUNT(CASE WHEN pendidikan = 'S1'  THEN 1 END) AS s1")
+      ->selectRaw("COUNT(CASE WHEN pendidikan = 'S2'  THEN 1 END) AS s2")
+      ->selectRaw("COUNT(CASE WHEN pendidikan = 'S3'  THEN 1 END) AS s3")
+      ->first();
 
-    $sd[] = $warga_sd;
-    $smp[] = $warga_smp;
-    $sma[] = $warga_sma;
-    $d1[] = $warga_d1;
-    $d2[] = $warga_d2;
-    $d3[] = $warga_d3;
-    $d4[] = $warga_d4;
-    $s1[] = $warga_s1;
-    $s2[] = $warga_s2;
-    $s3[] = $warga_s3;
+    $sd[] = $countpendidikan->sd;
+    $smp[] = $countpendidikan->smp;
+    $sma[] = $countpendidikan->sma;
+    $d1[] = $countpendidikan->d1;
+    $d2[] = $countpendidikan->d2;
+    $d3[] = $countpendidikan->d3;
+    $d4[] = $countpendidikan->d4;
+    $s1[] = $countpendidikan->s1;
+    $s2[] = $countpendidikan->s2;
+    $s3[] = $countpendidikan->s3;
 
     $rt = [];
     $jmlwarga = [];
@@ -55,25 +57,8 @@ class ProfileDesaController extends Controller
     }
 
     return
-    view('superuser.pages.profiledesa.profiledesa', compact(
-        'rt',
-        'total_warga',
-        'total_kk',
-        'umbulharjo',
-        'warga_laki',
-        'warga_perempuan',
-        'sd',
-        'smp',
-        'sma',
-        'd1',
-        'd2',
-        'd3',
-        'd4',
-        's1',
-        's2',
-        's3',
-        'jmlwarga',
-        'jmlkepala',
-      ));
+    view('superuser.pages.profiledesa.profiledesa',
+      compact('rt','total_warga','total_kk','kelamin','sd','smp','sma','d1','d2','d3','d4','s1','s2','s3','jmlwarga','jmlkepala')
+    );
   }
 }

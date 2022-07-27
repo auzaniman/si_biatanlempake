@@ -56,9 +56,9 @@ Profil Desa
         <div class="row">
           <div class="col-8">
             <div class="numbers">
-              <p class="text-sm mb-0 text-uppercase font-weight-bold">Total User</p>
+              <p class="text-sm mb-0 text-uppercase font-weight-bold">Total Warga</p>
               <h5 class="font-weight-bolder">
-               {{$total_warga}}
+               {{$total_warga->ktp}}
               </h5>
             </div>
           </div>
@@ -77,9 +77,9 @@ Profil Desa
         <div class="row">
           <div class="col-8">
             <div class="numbers">
-              <p class="text-sm mb-0 text-uppercase font-weight-bold">Total KK</p>
+              <p class="text-sm mb-0 text-uppercase font-weight-bold">Total Domisili</p>
               <h5 class="font-weight-bolder">
-               {{$total_kk}}
+               {{$total_warga->domisili}}
               </h5>
             </div>
           </div>
@@ -100,7 +100,7 @@ Profil Desa
             <div class="numbers">
               <p class="text-sm mb-0 text-uppercase font-weight-bold">Laki-Laki</p>
               <h5 class="font-weight-bolder">
-               {{$warga_laki}}
+               {{$kelamin->laki}}
               </h5>
             </div>
           </div>
@@ -121,7 +121,7 @@ Profil Desa
             <div class="numbers">
               <p class="text-sm mb-0 text-uppercase font-weight-bold">Perempuan</p>
               <h5 class="font-weight-bolder">
-               {{$warga_perempuan}}
+               {{$kelamin->perempuan}}
               </h5>
             </div>
           </div>
@@ -349,119 +349,41 @@ Profil Desa
 
 {{-- Chart Pendidikan --}}
 <script>
-  var ctx2 = document.getElementById("pie-chart").getContext("2d");
+  const ctx2 = document.getElementById('pie-chart').getContext("2d");
   new Chart(ctx2, {
-    type: "pie",
+    type: 'pie',
     data: {
-      labels: ['SD','SMP','SMA','D1','D2','D3','D4','S1','S2','S3'],
-      datasets: [
-        {
-          weight: 9,
-          cutout: 0,
-          tension: 0.9,
-          pointRadius: 2,
-          borderWidth: 2,
-          backgroundColor: [
-            "#17c1e8",
-            "#5e72e4",
-            "#3A416F",
-            "#a8b8d8",
-            "#17c1e8",
-            "#5e72e4",
-            "#3A416F",
-            "#a8b8d8",
-            "#17c1e8",
-            "#5e72e4",
+      labels: ['SD','SMP','SMA', 'D1','D2','D3', 'D4', 'S1','S2','S3'],
+      datasets: [{
+        data: [
+          {!!json_encode($sd)!!},
+          {!!json_encode($smp)!!},
+          {!!json_encode($sma)!!},
+          {!!json_encode($d1)!!},
+          {!!json_encode($d2)!!},
+          {!!json_encode($d3)!!},
+          {!!json_encode($d4)!!},
+          {!!json_encode($s1)!!},
+          {!!json_encode($s2)!!},
+          {!!json_encode($s3)!!},
           ],
-          data: [
-            {!!json_encode($sd)!!},
-            {!!json_encode($smp)!!},
-            {!!json_encode($sma)!!},
-            {!!json_encode($d1)!!},
-            {!!json_encode($d2)!!},
-            {!!json_encode($d3)!!},
-            {!!json_encode($d4)!!},
-            {!!json_encode($s1)!!},
-            {!!json_encode($s2)!!},
-            {!!json_encode($s3)!!},
-          ],
-          fill: false
-        }
+        backgroundColor: [
+          "#17c1e8",
+          "#5e72e4",
+          "#3A416F",
+          "#a8b8d8",
+          "#17c1e8",
+          "#5e72e4",
+          "#3A416F",
+          "#a8b8d8",
+          "#17c1e8",
+          "#5e72e4",
+        ],
+        hoverOffset: 4
+        },
       ]
     },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: {
-          display: false
-        }
-      },
-      interaction: {
-        intersect: false,
-        mode: "index"
-      },
-      scales: {
-        y: {
-          grid: {
-            drawBorder: false,
-            display: false,
-            drawOnChartArea: false,
-            drawTicks: false
-          },
-          ticks: {
-            display: false
-          }
-        },
-        x: {
-          grid: {
-            drawBorder: false,
-            display: false,
-            drawOnChartArea: false,
-            drawTicks: false
-          },
-          ticks: {
-            display: false
-          }
-        }
-      }
-    }
   });
-  // const ctx2 = document.getElementById('pie-chart').getContext("2d");
-  // new Chart(ctx2, {
-  //   type: 'pie',
-  //   data: {
-  //     labels: ['SD','SMP','SMA', 'D1','D2','D3', 'D4', 'S1','S2','S3'],
-  //     datasets: [{
-  //       data: [
-  //         {!!json_encode($sd)!!},
-  //         {!!json_encode($smp)!!},
-  //         {!!json_encode($sma)!!},
-  //         {!!json_encode($d1)!!},
-  //         {!!json_encode($d2)!!},
-  //         {!!json_encode($d3)!!},
-  //         {!!json_encode($d4)!!},
-  //         {!!json_encode($s1)!!},
-  //         {!!json_encode($s2)!!},
-  //         {!!json_encode($s3)!!},
-  //         ],
-  //       backgroundColor: [
-  //         'rgba(255, 99, 132)',
-  //         'rgba(100, 140, 200)',
-  //         'rgba(80, 100, 100)',
-  //         'rgba(55, 80, 20)',
-  //         'rgba(25, 90, 100)',
-  //         'rgba(200, 10, 25)',
-  //         'rgba(155, 40, 50)',
-  //         'rgba(50, 240, 60)',
-  //         'rgba(205, 14, 30)',
-  //         'rgba(15, 50, 60)',
-  //       ],
-  //       hoverOffset: 4
-  //       },
-  //     ]
-  //   },
-  // });
 </script>
 
 <script>

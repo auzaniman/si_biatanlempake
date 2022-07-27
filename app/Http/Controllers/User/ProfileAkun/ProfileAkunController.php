@@ -18,57 +18,27 @@ class ProfileAkunController extends Controller
 {
     public function index()
     {
-      $user = User::where('id', '=', Auth::user()->id)->first();
+      // $user = User::where('id', '=', Auth::user()->id)->first();
 
-      $provinsi = Province::select('name')
-        ->where('id', '=', Auth::user()->provinsi_ktp)
-        ->first();
-
-      $kota = Regency::select('name')
-        ->where('id', '=', Auth::user()->kota_ktp)
-        ->first();
-
-      $kecamatan = District::select('name')
-        ->where('id', '=', Auth::user()->kecamatan_ktp)
-        ->first();
-
-      $desa = Village::select('name')
-        ->where('id', '=', Auth::user()->desa_ktp)
-        ->first();
-
-      $provinsi_dom = Province::select('name')
-        ->where('id', '=', Auth::user()->provinsi_domisili)
-        ->first();
-
-      $kota_dom = Regency::select('name')
-        ->where('id', '=', Auth::user()->kota_domisili)
-        ->first();
-
-      $kecamatan_dom = District::select('name')
-        ->where('id', '=', Auth::user()->kecamatan_domisili)
-        ->first();
-
-      $desa_dom = Village::select('name')
-        ->where('id', '=', Auth::user()->desa_domisili)
-        ->first();
+      $data = User::select('users.*','pk.name as provinsiktp','pd.name as provinsidom','rk.name as kotaktp','rd.name as kotadom', 'dk.name as kecktp', 'dd.name as kecdom', 'vk.name as desaktp', 'vd.name as desadom')
+      ->join('provinces as pk', 'users.provinsi_ktp', 'pk.id')
+      ->join('regencies as rk', 'users.kota_ktp', 'rk.id')
+      ->join('districts as dk', 'users.kecamatan_ktp', 'dk.id')
+      ->join('villages as vk', 'users.desa_ktp', 'vk.id')
+      ->leftJoin('provinces as pd', 'users.provinsi_domisili', 'pd.id')
+      ->leftJoin('regencies as rd', 'users.kota_domisili', 'rd.id')
+      ->leftJoin('districts as dd', 'users.kecamatan_domisili', 'dd.id')
+      ->leftJoin('villages as vd', 'users.desa_domisili', 'vd.id')
+      ->where('users.id', auth()->user()->id)
+      ->first();
 
       $provinces = Province::pluck('name', 'id');
 
       $foto = FotoProfileModel::where('user_id', '=', Auth::user()->id)->first();
 
-      return view('superuser.pages.profileakun.profileakun', compact(
-        'user',
-        'foto',
-        'provinces',
-        'provinsi',
-        'kota',
-        'kecamatan',
-        'desa',
-        'provinsi_dom',
-        'kota_dom',
-        'kecamatan_dom',
-        'desa_dom',
-      ));
+      return view('superuser.pages.profileakun.profileakun',
+        compact('data','foto','provinces')
+      );
     }
 
     public function getkabupatenprofile(Request $request) {
@@ -226,34 +196,23 @@ class ProfileAkunController extends Controller
 
     public function kumpulan_berkas()
     {
-      $user = User::where('id', '=', Auth::user()->id)->first();
       $foto = FotoProfileModel::where('user_id', '=', Auth::user()->id)->first();
       $berkas = Berkas::where('user_id', '=', Auth::user()->id)->first();
 
-      $provinsi = Province::select('name')
-        ->where('id', '=', Auth::user()->provinsi_ktp)
-        ->first();
+      $data = User::select('users.*','pk.name as provinsiktp','pd.name as provinsidom','rk.name as kotaktp','rd.name as kotadom', 'dk.name as kecktp', 'dd.name as kecdom', 'vk.name as desaktp', 'vd.name as desadom')
+      ->join('provinces as pk', 'users.provinsi_ktp', 'pk.id')
+      ->join('regencies as rk', 'users.kota_ktp', 'rk.id')
+      ->join('districts as dk', 'users.kecamatan_ktp', 'dk.id')
+      ->join('villages as vk', 'users.desa_ktp', 'vk.id')
+      ->leftJoin('provinces as pd', 'users.provinsi_domisili', 'pd.id')
+      ->leftJoin('regencies as rd', 'users.kota_domisili', 'rd.id')
+      ->leftJoin('districts as dd', 'users.kecamatan_domisili', 'dd.id')
+      ->leftJoin('villages as vd', 'users.desa_domisili', 'vd.id')
+      ->where('users.id', auth()->user()->id)
+      ->first();
 
-      $kota = Regency::select('name')
-        ->where('id', '=', Auth::user()->kota_ktp)
-        ->first();
-
-      $kecamatan = District::select('name')
-        ->where('id', '=', Auth::user()->kecamatan_ktp)
-        ->first();
-
-      $desa = Village::select('name')
-        ->where('id', '=', Auth::user()->desa_ktp)
-        ->first();
-
-      return view('superuser.pages.profileakun.berkas2', compact(
-        'user',
-        'berkas',
-        'foto',
-        'provinsi',
-        'kota',
-        'kecamatan',
-        'desa',
-      ));
+      return view('superuser.pages.profileakun.berkas2',
+        compact('data','berkas','foto')
+      );
     }
 }

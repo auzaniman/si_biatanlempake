@@ -29,20 +29,20 @@ Profil Akun
     <div class="card">
       <div class="card-body">
         <p class="text-uppercase text-sm">Edit Detail Akun</p>
-        <form action="{{route('profile_edit', $user->id)}}" method="POST">
+        <form action="{{route('profile_edit', $data->id)}}" method="POST">
           @method('put')
           @csrf
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
                 <label for="username" class="form-control-label">Username</label>
-                <input id="username" name="username" class="form-control" type="text" value="{{$user->username}}">
+                <input id="username" name="username" class="form-control" type="text" value="{{$data->username}}">
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for="name" class="form-control-label">Nama</label>
-                <input id="name" name="name" class="form-control" type="text" value="{{$user->name}}">
+                <input id="name" name="name" class="form-control" type="text" value="{{$data->name}}">
               </div>
             </div>
           </div>
@@ -52,19 +52,19 @@ Profil Akun
             <div class="col-md-4">
               <div class="form-group">
                 <label for="nik" class="form-control-label">NIK</label>
-                <input id="nik" name="nik" class="form-control" type="text" value="{{$user->nik}}">
+                <input id="nik" name="nik" class="form-control" type="text" value="{{$data->nik}}">
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-group">
                 <label for="kk" class="form-control-label">No KK</label>
-                <input id="kk" name="kk" class="form-control" type="text" value="{{$user->kk}}">
+                <input id="kk" name="kk" class="form-control" type="text" value="{{$data->kk}}">
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-group">
                 <label for="npwp" class="form-control-label">No NPWP</label>
-                <input id="npwp" name="npwp" class="form-control" type="text" value="{{$user->npwp}}">
+                <input id="npwp" name="npwp" class="form-control" type="text" value="{{$data->npwp}}">
               </div>
             </div>
           </div>
@@ -75,19 +75,19 @@ Profil Akun
             <div class="col-md-4">
               <div class="form-group">
                 <label for="email" class="form-control-label">Email address</label>
-                <input id="email" name="email" class="form-control" type="email" value="{{$user->email}}">
+                <input id="email" name="email" class="form-control" type="email" value="{{$data->email}}">
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-group">
                 <label for="no_telpon" class="form-control-label">No Telpon</label>
-                <input id="no_telpon" name="no_telpon" class="form-control" type="text" value="{{$user->no_telpon}}">
+                <input id="no_telpon" name="no_telpon" class="form-control" type="text" value="{{$data->no_telpon}}">
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-group">
                 <label for="no_wa" class="form-control-label">No Whatsapp</label>
-                <input id="no_wa" name="no_wa" class="form-control" type="text" value="{{$user->no_wa}}">
+                <input id="no_wa" name="no_wa" class="form-control" type="text" value="{{$data->no_wa}}">
               </div>
             </div>
           </div>
@@ -98,49 +98,49 @@ Profil Akun
             <div class="col-md-4">
               <div class="form-group">
                 <label for="tempat_lahir" class="form-control-label">Tempat Lahir</label>
-                <input id="tempat_lahir" name="tempat_lahir" class="form-control" type="text" value="{{$user->tempat_lahir}}">
+                <input id="tempat_lahir" name="tempat_lahir" class="form-control" type="text" value="{{$data->tempat_lahir}}">
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-group">
                 <label for="tanggal_lahir" class="form-control-label">Tanggal Lahir</label>
-                <input id="tanggal_lahir" name="tanggal_lahir" class="form-control" type="text" value="{{$user->tanggal_lahir}}">
+                <input id="tanggal_lahir" name="tanggal_lahir" class="form-control" type="text" value="{{$data->tanggal_lahir}}">
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-group">
                 <label for="kelamin" class="form-control-label">Jenis Kelamin</label>
-                <input id="kelamin" name="kelamin" class="form-control" type="text" value="{{$user->kelamin}}">
+                <input id="kelamin" name="kelamin" class="form-control" type="text" value="{{$data->kelamin}}">
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-group">
                 <label for="agama" class="form-control-label">Agama</label>
-                <input id="agama" name="agama" class="form-control" type="text" value="{{$user->agama}}">
+                <input id="agama" name="agama" class="form-control" type="text" value="{{$data->agama}}">
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-group">
                 <label for="perkawinan" class="form-control-label">Status Perkawinan</label>
-                <input id="perkawinan" name="perkawinan" class="form-control" type="text" value="{{$user->perkawinan}}">
+                <input id="perkawinan" name="perkawinan" class="form-control" type="text" value="{{$data->perkawinan}}">
               </div>
             </div>
             <div class="col-md-4">
               <div class="form-group">
                 <label for="kewarganegaraan" class="form-control-label">Kewarganegaraan</label>
-                <input id="kewarganegaraan" name="kewarganegaraan" class="form-control" type="text" value="{{$user->kewarganegaraan}}">
+                <input id="kewarganegaraan" name="kewarganegaraan" class="form-control" type="text" value="{{$data->kewarganegaraan}}">
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for="pekerjaan" class="form-control-label">Pekerjaan</label>
-                <input id="pekerjaan" name="pekerjaan" class="form-control" type="text" value="{{$user->pekerjaan}}">
+                <input id="pekerjaan" name="pekerjaan" class="form-control" type="text" value="{{$data->pekerjaan}}">
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for="pendidikan" class="form-control-label">Pendidikan</label>
-                <input id="pendidikan" name="pendidikan" class="form-control" type="text" value="{{$user->pendidikan}}">
+                <input id="pendidikan" name="pendidikan" class="form-control" type="text" value="{{$data->pendidikan}}">
               </div>
             </div>
           </div>
@@ -162,7 +162,7 @@ Profil Akun
               <div class="modal-body">
                 <h6 class="ms-3">Ubah Data Alamat KTP</h6>
                 <div class="py-3 pb-0">
-                  <form action="{{route('profile_edit_alamatktp', $user->id)}}" method="POST">
+                  <form action="{{route('profile_edit_alamatktp', $data->id)}}" method="POST">
                     @method('put')
                     @csrf
                     <div class="form-group">
@@ -267,7 +267,7 @@ Profil Akun
                 <span><strong>Provinsi</strong><span>
               </td>
               <td>
-                <span class="text-dark ms-sm-2">:  {{$provinsi->name}}</span>
+                <span class="text-dark ms-sm-2">:  {{$data->provinsiktp}}</span>
               </td>
             </tr>
             <tr>
@@ -275,7 +275,7 @@ Profil Akun
                 <span><strong>Kota</strong><span>
               </td>
               <td>
-                <span class="text-dark ms-sm-2">:  {{$kota->name}}</span>
+                <span class="text-dark ms-sm-2">:  {{$data->kotaktp}}</span>
               </td>
             </tr>
             <tr>
@@ -283,7 +283,7 @@ Profil Akun
                 <span><strong>Kecamatan</strong><span>
               </td>
               <td>
-                <span class="text-dark ms-sm-2">:  {{$kecamatan->name}}</span>
+                <span class="text-dark ms-sm-2">:  {{$data->kecktp}}</span>
               </td>
             </tr>
             <tr>
@@ -291,7 +291,7 @@ Profil Akun
                 <span><strong>Desa</strong><span>
               </td>
               <td>
-                <span class="text-dark ms-sm-2">:  {{$desa->name}}</span>
+                <span class="text-dark ms-sm-2">:  {{$data->desaktp}}</span>
               </td>
             </tr>
             <tr>
@@ -299,7 +299,7 @@ Profil Akun
                 <span><strong>RT</strong><span>
               </td>
               <td>
-                <span class="text-dark ms-sm-2">:  {{$user->rt_ktp}}</span>
+                <span class="text-dark ms-sm-2">:  {{$data->rt_ktp}}</span>
               </td>
             </tr>
             <tr>
@@ -307,7 +307,7 @@ Profil Akun
                 <span><strong>RW</strong><span>
               </td>
               <td>
-                <span class="text-dark ms-sm-2">:  {{$user->rw_ktp}}</span>
+                <span class="text-dark ms-sm-2">:  {{$data->rw_ktp}}</span>
               </td>
             </tr>
           </tbody>
@@ -324,7 +324,7 @@ Profil Akun
               <div class="modal-body">
                 <h6 class="ms-3">Ubah Data Alamat Domisili</h6>
                 <div class="py-3 pb-0">
-                  <form action="{{route('profile_edit_alamatdomisili', $user->id)}}" method="POST">
+                  <form action="{{route('profile_edit_alamatdomisili', $data->id)}}" method="POST">
                     @method('put')
                     @csrf
                     <div class="form-group">
@@ -423,70 +423,122 @@ Profil Akun
 
         <table class="table align-items-center table-responsive mb-3 table-borderless">
           <tbody>
-            <tr>
-              <td class="ps-0 col-1">
-                <span><strong>Provinsi</strong><span>
-              </td>
-              <td>
-                @if ($provinsi_dom != null)
-                <span class="text-dark ms-sm-2">:  {{$provinsi_dom->name}}</span>
-                @else
-                <span class="text-dark ms-sm-2">:  </span>
-                @endif
-              </td>
-            </tr>
-            <tr>
-              <td class="ps-0">
-                <span><strong>Kota</strong><span>
-              </td>
-              <td>
-                @if ($kota_dom != null)
-                <span class="text-dark ms-sm-2">:  {{$kota_dom->name}}</span>
-                @else
-                <span class="text-dark ms-sm-2">:  </span>
-                @endif
-              </td>
-            </tr>
-            <tr>
-              <td class="ps-0">
-                <span><strong>Kecamatan</strong><span>
-              </td>
-              <td>
-                @if ($kecamatan_dom != null)
-                <span class="text-dark ms-sm-2">:  {{$kecamatan_dom->name}}</span>
-                @else
-                <span class="text-dark ms-sm-2">:  </span>
-                @endif
-              </td>
-            </tr>
-            <tr>
-              <td class="ps-0">
-                <span><strong>Desa</strong><span>
-              </td>
-              <td>
-                @if ($desa_dom != null)
-                <span class="text-dark ms-sm-2">:  {{$desa_dom->name}}</span>
-                @else
-                <span class="text-dark ms-sm-2">:  </span>
-                @endif
-              </td>
-            </tr>
-            <tr>
-              <td class="ps-0">
-                <span><strong>RT</strong><span>
-              </td>
-              <td>
-                <span class="text-dark ms-sm-2">:  {{$user->rt_domisili}}</span>
-              </td>
-            </tr>
-            <tr>
-              <td class="ps-0">
-                <span><strong>RW</strong><span>
-              </td>
-              <td>
-                <span class="text-dark ms-sm-2">:  {{$user->rw_domisili}}</span>
-              </td>
-            </tr>
+             @if ($data->desadom = null && $data->kecdom = null && $data->kotadom = null && $data->provinsidom = null)
+              <tr>
+                <td class="ps-0 col-1">
+                  <span><strong>Provinsi</strong><span>
+                </td>
+                <td>
+                  @if ($data->provinsidom = null)
+                  <span class="text-dark ms-sm-2">:  </span>
+                  @else
+                  <span class="text-dark ms-sm-2">:  </span>
+                  @endif
+                </td>
+              </tr>
+              <tr>
+                <td class="ps-0">
+                  <span><strong>Kota</strong><span>
+                </td>
+                <td>
+                  @if ($data->kotadom = null)
+                  <span class="text-dark ms-sm-2">:  </span>
+                  @else
+                  <span class="text-dark ms-sm-2">:  </span>
+                  @endif
+                </td>
+              </tr>
+              <tr>
+                <td class="ps-0">
+                  <span><strong>Kecamatan</strong><span>
+                </td>
+                <td>
+                  @if ($data->kecdom = null)
+                  <span class="text-dark ms-sm-2">:  </span>
+                  @else
+                  <span class="text-dark ms-sm-2">:  </span>
+                  @endif
+                </td>
+              </tr>
+              <tr>
+                <td class="ps-0">
+                  <span><strong>Desa</strong><span>
+                </td>
+                <td>
+                  @if ($data->desadom = null)
+                  <span class="text-dark ms-sm-2">:  </span>
+                  @else
+                  <span class="text-dark ms-sm-2">:  </span>
+                  @endif
+                </td>
+              </tr>
+              <tr>
+                <td class="ps-0">
+                  <span><strong>RT</strong><span>
+                </td>
+                <td>
+                  <span class="text-dark ms-sm-2">:  </span>
+                </td>
+              </tr>
+              <tr>
+                <td class="ps-0">
+                  <span><strong>RW</strong><span>
+                </td>
+                <td>
+                  <span class="text-dark ms-sm-2">:  </span>
+                </td>
+              </tr>
+            @else
+              <tr>
+                <td class="ps-0 col-1">
+                  <span><strong>Provinsi</strong><span>
+                </td>
+                <td>
+                  <span class="text-dark ms-sm-2">:  {{$data->provinsidom}}</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="ps-0">
+                  <span><strong>Kota</strong><span>
+                </td>
+                <td>
+                  <span class="text-dark ms-sm-2">:  {{$data->kotadom}}</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="ps-0">
+                  <span><strong>Kecamatan</strong><span>
+                </td>
+                <td>
+                  <span class="text-dark ms-sm-2">:  {{$data->kecdom}}</span>
+
+                </td>
+              </tr>
+              <tr>
+                <td class="ps-0">
+                  <span><strong>Desa</strong><span>
+                </td>
+                <td>
+                  <span class="text-dark ms-sm-2">:  {{$data->desadom}}</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="ps-0">
+                  <span><strong>RT</strong><span>
+                </td>
+                <td>
+                  <span class="text-dark ms-sm-2">:  {{$data->rt_domisili}}</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="ps-0">
+                  <span><strong>RW</strong><span>
+                </td>
+                <td>
+                  <span class="text-dark ms-sm-2">:  {{$data->rw_domisili}}</span>
+                </td>
+              </tr>
+            @endif
           </tbody>
         </table>
 
@@ -527,7 +579,7 @@ Profil Akun
             <div class="col-md-12" hidden>
               <div class="form-group">
                 <label for="user_id" class="form-control-label">User ID</label>
-                <input id="user_id" name="user_id" class="form-control" type="text" value="{{$user->id}}">
+                <input id="user_id" name="user_id" class="form-control" type="text" value="{{$data->id}}">
               </div>
             </div>
             <div class="col-md-12">
@@ -553,8 +605,8 @@ Profil Akun
       </div>
       <hr class="horizontal dark my-0">
       <div class="card-body">
-        @if (($user) != null)
-          @if ($user->npwp != null)
+        @if (($data) != null)
+          @if ($data->npwp != null)
 
           @else
           <div class="d-flex pb-3">
@@ -576,8 +628,8 @@ Profil Akun
           </div>
         </div>
         @endif
-        @if (($user) != null)
-          @if ($user->no_wa != null)
+        @if (($data) != null)
+          @if ($data->no_wa != null)
 
           @else
           <div class="d-flex pb-3">
