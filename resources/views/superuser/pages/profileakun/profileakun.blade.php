@@ -11,7 +11,7 @@ Profil Akun
       <div class="full-background" style="background-image: url('/frontend/assets/img/1.png')"></div>
       <div class="card-body text-left">
         <h4 class="text-white">Selamat Datang di Desa Biatan Lempake</h4>
-        <p class=" text-white bold mb-0">Awali harimu dengan senyum. Selamat melakukan aktifitas warga desa biatan lempake. Kami melayani sepenuh hati.</p>
+        <p class=" text-white bold mb-0">Awali harimu dengan senyum. Selamat melakukan aktifitas warga Kampung biatan lempake. Kami melayani sepenuh hati.</p>
       </div>
     </div>
   </div>

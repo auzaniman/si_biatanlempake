@@ -39,6 +39,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\DependantDropdownController;
+use App\Http\Controllers\Officer\DataUserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -74,6 +75,9 @@ Route::middleware(["officer"])
 ->group(function () {
   //Profile
   Route::get("/", [MainDashboardController::class, "index"])->name("dashboard");
+
+  // Data User
+  Route::get('/datausers', [DataUserController::class, "index"])->name("datauser");
 
   // Profile Desa
   // Route::get("/desa", [ProfileDesaController::class, "Index"])->name("profile_desa");

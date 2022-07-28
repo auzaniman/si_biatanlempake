@@ -11,7 +11,7 @@ Tantangan Dan Potensi
       <div class="card-header pb-0 pt-3 bg-transparent">
         <h6 class="text-capitalize">Tantangan dan Potensi</h6>
         <p class="mb-3">
-          Fitur potensi desa mendeskripsikan berbagai tantangan dan potensi yang ada di desa. Berbentuk gambar, video, dan narasi maupun infografis. Sama dengan profil, materi didapat dari desa dan diolah oleh tim agar mudah dibaca oleh publik.
+          Fitur potensi kampung mendeskripsikan berbagai tantangan dan potensi yang ada di kampung. Berbentuk gambar, video, dan narasi maupun infografis. Sama dengan profil, materi didapat dari kampung dan diolah oleh tim agar mudah dibaca oleh publik.
         </p>
       </div>
     </div>
@@ -32,7 +32,7 @@ Tantangan Dan Potensi
           Atraksi Budaya
         </a>
         <p class="card-description">
-          Atraksi budaya yang dilakukan turunt-temurun dari tetua desa kami .
+          Atraksi budaya yang dilakukan turunt-temurun dari tetua kampung kami .
         </p>
       </div>
     </div>

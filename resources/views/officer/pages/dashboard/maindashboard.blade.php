@@ -11,7 +11,7 @@ Dashboard Officer
       <div class="full-background" style="background-image: url('https://images.unsplash.com/photo-1541451378359-acdede43fdf4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=934&amp;q=80')"></div>
       <div class="card-body text-left">
         <h4 class="text-white">Selamat Datang Admin Desa Biatan Lempake</h4>
-        <p class=" text-white bold">Awali pekerjaanmu dengan senyum. Selamat melayani warga desa biatan lempake. Tunaikan pekerjaan dengan teliti dan seksama.</p>
+        <p class=" text-white bold">Awali pekerjaanmu dengan senyum. Selamat melayani warga kampung biatan lempake. Tunaikan pekerjaan dengan teliti dan seksama.</p>
       </div>
     </div>
   </div>
@@ -51,7 +51,7 @@ Dashboard Officer
               <button class="btn btn-icon-only btn-rounded btn-outline-success mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i class="fas fa-plus"></i></button>
               <div class="d-flex flex-column">
                 <h6 class="mb-1 text-dark text-sm">Total Warga</h6>
-                <span class="text-xs">KTP & domisili desa biatan lempake</span>
+                <span class="text-xs">KTP & domisili kampung biatan lempake</span>
               </div>
             </div>
             <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">
@@ -65,7 +65,7 @@ Dashboard Officer
               <button class="btn btn-icon-only btn-rounded btn-outline-danger mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i class="fas fa-arrow-down"></i></button>
               <div class="d-flex flex-column">
                 <h6 class="mb-1 text-dark text-sm">Pindah</h6>
-                <span class="text-xs">Pindah KTP dari desa biatan lempake</span>
+                <span class="text-xs">Pindah KTP dari kampung biatan lempake</span>
               </div>
             </div>
             <div class="d-flex align-items-center text-danger text-gradient text-sm font-weight-bold">
@@ -79,7 +79,7 @@ Dashboard Officer
               <button class="btn btn-icon-only btn-rounded btn-outline-dark mb-0 me-3 btn-sm d-flex align-items-center justify-content-center"><i class="fas fa-exclamation"></i></button>
               <div class="d-flex flex-column">
                 <h6 class="mb-1 text-dark text-sm">Bukan Warga</h6>
-                <span class="text-xs">Bukan KTP desa biatan lempake</span>
+                <span class="text-xs">Bukan KTP kampung biatan lempake</span>
               </div>
             </div>
             <div class="d-flex align-items-center text-dark text-sm font-weight-bold">

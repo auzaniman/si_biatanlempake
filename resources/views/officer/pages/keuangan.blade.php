@@ -36,7 +36,7 @@ Keuangan
           <tbody>
             <tr>
               <td>
-                <p class="mb-0 px-3">Pendapatan asli desa</p>
+                <p class="mb-0 px-3">Pendapatan asli kampung</p>
               </td>
               <td>
                 <p class="font-weight-bold mb-0">Rp. 1.000.000.000</p>
@@ -68,7 +68,7 @@ Keuangan
             </tr>
             <tr>
               <td>
-                <p class="mb-0 px-3">Pinjaman desa</p>
+                <p class="mb-0 px-3">Pinjaman kampung</p>
               </td>
               <td>
                 <p class="font-weight-bold mb-0">Rp. -</p>
@@ -91,7 +91,7 @@ Keuangan
             </thead>
             <tr>
               <td>
-                <p class="mb-0 px-3">Belanja aparatur desa</p>
+                <p class="mb-0 px-3">Belanja aparatur kampung</p>
               </td>
               <td>
                 <p class="font-weight-bold mb-0">Rp. 500.000.000</p>
@@ -228,7 +228,7 @@ Keuangan
     type: 'pie',
     data: {
       labels: [
-        'Belanja aparatur desa',
+        'Belanja aparatur kampung',
         'Pembangunan infrastruktur',
         'Pembangunan ekonomi',
         'Pembangunan pendidikan',

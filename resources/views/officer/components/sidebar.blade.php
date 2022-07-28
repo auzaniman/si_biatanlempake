@@ -22,6 +22,14 @@
         </a>
       </li>
       <li class="nav-item">
+        <a class="nav-link nav-active" href="{{route('officer.datauser')}}">
+          <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
+            <i class="ni ni-circle-08 text-primary text-sm"></i>
+          </div>
+          <span class="nav-link-text ms-1">Data User</span>
+        </a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link nav-active" href="{{route('officer.chart')}}">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="ni ni-calendar-grid-58 text-primary text-sm"></i>
