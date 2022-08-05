@@ -5,95 +5,144 @@ Tantangan Dan Potensi
 @endsection
 
 @section('content')
+{{-- Potensi --}}
 <div class="row">
-  <div class="col-lg-12 mb-lg-0 mb-4">
+  <h5 class="ms-3 mb-3">Potensi</h5>
+  @forelse ($getdatapotensi as $item)
+  <div class="col-lg-4 mb-lg-0 mb-4">
     <div class="card h-100">
-      <div class="card-header pb-0 pt-3 bg-transparent">
-        <h6 class="text-capitalize">Tantangan dan Potensi</h6>
-        <p class="mb-3">
-          Fitur potensi kampung mendeskripsikan berbagai tantangan dan potensi yang ada di kampung. Berbentuk gambar, video, dan narasi maupun infografis. Sama dengan profil, materi didapat dari kampung dan diolah oleh tim agar mudah dibaca oleh publik.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="row mt-4">
-  <h5 class="ms-3">Potensi</h5>
-  <div class="col-lg-4 mb-lg-0 mb-4">
-    <div class="card  h-100">
       <div class="card-header bg-transparent p-0 mx-3 mt-3 position-relative z-index-1">
+        <button class="btn btn-sm btn-info btn-icon mt-0 btn-3 mb-sm-2 ms-auto" data-bs-toggle="modal" data-bs-target="#modal-form">
+          <span class="btn-inner--text">Ubah</span>
+        </button>
+        <button type="submit" class="btn btn-sm btn-danger btn-icon mt-0 btn-3 mb-sm-2 ms-auto">
+          <span class="btn-inner--text">Hapus</span>
+        </button>
         <a href="" class="d-block">
-          <img src="{{url('backend/assets/img/img1.jpg')}}" class="img-fluid border-radius-xl mb-3" width="300" height="300" alt="ilustrasi sampah">
+          <img src="{{ asset('storage/'.$item->gambar_tdp) }}" class="img-fluid border-radius-xl mb-3" width="300" height="300" alt="ilustrasi sampah">
         </a>
       </div>
       <div class="card-body py-0">
+        @if ($item->kategori_tdp = 2)
         <span class="text-gradient text-primary text-uppercase text-xs font-weight-bold">Potensi</span>
-        <a href="javascript:;" class="card-title h5 d-block text-darker">
-          Atraksi Budaya
+        @endif
+        <a href="javascript:;" class="card-title h5 d-block text-darker text-capitalize">
+          {{$item->judul_tdp}}
         </a>
         <p class="card-description">
-          Atraksi budaya yang dilakukan turunt-temurun dari tetua kampung kami .
+          {{$item->desc_tdp}}
         </p>
       </div>
     </div>
   </div>
-  <div class="col-lg-4 mb-lg-0 mb-4">
-    <div class="card  h-100">
-      <div class="card-header bg-transparent p-0 mx-3 mt-3 position-relative z-index-1">
-        <a href="" class="d-block">
-          <img src="{{url('backend/assets/img/img2.jpg')}}" class="img-fluid border-radius-xl mb-3" width="300" height="300" alt="ilustrasi sampah">
-        </a>
-      </div>
-      <div class="card-body py-0">
-        <span class="text-gradient text-primary text-uppercase text-xs font-weight-bold">Potensi</span>
-        <a href="javascript:;" class="card-title h5 d-block text-darker">
-          Air Terjun
-        </a>
-        <p class="card-description">
-          Air terjun berikut ekosistem di sekitarnya yang masih terjaga dengan baik.
-        </p>
+
+  <div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="modal-form" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <div class="card card-plain">
+            <div class="card-header pb-0 text-left">
+              <h3 class="font-weight-bolder text-info text-gradient">Ubah Data Modal</h3>
+            </div>
+            <div class="card-body">
+              <form role="form text-left" action="{{route('officer.editsettdp', $item->id)}}" enctype="multipart/form-data" method="POST">
+                @method('put')
+                @csrf
+                <label>Gambar</label>
+                <div class="input-group mb-3">
+                  <input type="file" name="gambar_tdp" id="gambar_tdp" class="form-control" >
+                </div>
+                <label>Judul</label>
+                <div class="input-group mb-3">
+                  <input type="text" name="judul_tdp" id="judul_tdp" class="form-control" placeholder="Judul" >
+                </div>
+                <label>Deskripsi</label>
+                <div class="input-group mb-3">
+                  <input type="text" name="desc_tdp" id="desc_tdp" class="form-control" placeholder="Deskripsi" >
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-round bg-gradient-info btn-lg w-100 mt-4 mb-0">Ubah Data</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  @empty
+
+  @endforelse
 </div>
+
+{{-- Tantangan --}}
 <div class="row mt-4">
   <h5 class="ms-3">Tantangan</h5>
+  @forelse ($getdatatantangan as $item)
   <div class="col-lg-4 mb-lg-0 mb-4">
     <div class="card  h-100">
       <div class="card-header bg-transparent p-0 mx-3 mt-3 position-relative z-index-1">
+        <button class="btn btn-sm btn-info btn-icon mt-0 btn-3 mb-sm-2 ms-auto" data-bs-toggle="modal" data-bs-target="#modal-form2">
+          <span class="btn-inner--text">Ubah</span>
+        </button>
+        <button type="submit" class="btn btn-sm btn-danger btn-icon mt-0 btn-3 mb-sm-2 ms-auto">
+          <span class="btn-inner--text">Hapus</span>
+        </button>
         <a href="" class="d-block">
-          <img src="{{url('backend/assets/img/img3.jpg')}}" class="img-fluid border-radius-xl mb-3" width="300" height="300" alt="ilustrasi sampah">
+          <img src="{{ asset('storage/'.$item->gambar_tdp) }}" class="img-fluid border-radius-xl mb-3" width="300" height="300" alt="ilustrasi sampah">
         </a>
       </div>
       <div class="card-body py-0">
+        @if ($item->kategori_tdp = 1)
         <span class="text-gradient text-primary text-uppercase text-xs font-weight-bold">Tantangan</span>
-        <a href="javascript:;" class="card-title h5 d-block text-darker">
-          Sampah
+        @endif
+        <a href="javascript:;" class="card-title h5 d-block text-darker text-capitalize">
+          {{$item->judul_tdp}}
         </a>
         <p class="card-description">
-          Sampah rumah tangga dan industry yang belum terkelola dengan baik, sehingga menimbulkan dampak negative di beberapa titik.
+          {{$item->desc_tdp}}
         </p>
       </div>
     </div>
   </div>
-  <div class="col-lg-4 mb-lg-0 mb-4">
-    <div class="card  h-100">
-      <div class="card-header bg-transparent p-0 mx-3 mt-3 position-relative z-index-1">
-        <a href="" class="d-block">
-          <img src="{{url('backend/assets/img/img3.jpg')}}" class="img-fluid border-radius-xl mb-3" width="300" height="300" alt="ilustrasi sampah">
-        </a>
-      </div>
-      <div class="card-body py-0">
-        <span class="text-gradient text-primary text-uppercase text-xs font-weight-bold">Tantangan</span>
-        <a href="javascript:;" class="card-title h5 d-block text-darker">
-          Ekonomi
-        </a>
-        <p class="card-description">
-          Kesenjangan ekonomi antara penduduk asli dengan pendatang, serta tingginya angka pengangguran pada usia produktif.
-        </p>
+
+  <div class="modal fade" id="modal-form2" tabindex="-1" role="dialog" aria-labelledby="modal-form" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <div class="card card-plain">
+            <div class="card-header pb-0 text-left">
+              <h3 class="font-weight-bolder text-info text-gradient">Ubah Data Modal</h3>
+            </div>
+            <div class="card-body">
+              <form role="form text-left" action="{{route('officer.editsettdp', $item->id)}}" enctype="multipart/form-data" method="POST">
+                @method('put')
+                @csrf
+                <label>Gambar</label>
+                <div class="input-group mb-3">
+                  <input type="file" name="gambar_tdp" id="gambar_tdp" class="form-control" >
+                </div>
+                <label>Judul</label>
+                <div class="input-group mb-3">
+                  <input type="text" name="judul_tdp" id="judul_tdp" class="form-control" placeholder="Judul" >
+                </div>
+                <label>Deskripsi</label>
+                <div class="input-group mb-3">
+                  <input type="text" name="desc_tdp" id="desc_tdp" class="form-control" placeholder="Deskripsi" >
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-round bg-gradient-info btn-lg w-100 mt-4 mb-0">Ubah Data</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  @empty
+
+  @endforelse
 </div>
 {{-- <div class="row mt-4">
   <div class="col-lg-7 mb-lg-0 mb-4">

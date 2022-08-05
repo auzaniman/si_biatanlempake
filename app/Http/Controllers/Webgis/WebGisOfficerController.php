@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Officer;
+namespace App\Http\Controllers\Webgis;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class PetaDesaOfficerController extends Controller
+class WebGisOfficerController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class PetaDesaOfficerController extends Controller
      */
     public function index()
     {
-        return view('officer.pages.petadesa');
+        return view('webgis.pages.index-officer');
     }
 
     /**

@@ -4,98 +4,79 @@ namespace App\Http\Controllers\Officer;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\StoreSettingSejKampRequest;
-use App\Models\SettingSejKampModel;
+use App\Models\SettingModel;
 
 class SettingController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-      $profiledesa = SettingSejKampModel::where('id')->first();
-      return view('officer.pages.setting', [
-        'profiledesa' => $profiledesa
-      ]);
-    }
+  public function index()
+  {
+    $getdatapropdesa = SettingModel::select('id', 'img_desa', 'video_desa', 'sejarah_kampung')->first();
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
+    return view('officer.pages.setting.setting', compact('getdatapropdesa'));
+  }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(StoreSettingSejKampRequest $request)
-    {
-      $profiledesa = new SettingSejKampModel();
+  public function storePropDesa(Request $request)
+  {
+    $profiledesa = new SettingModel();
 
-      $profiledesa->sejarah_kampung = $request->sejarah_kampung;
-      $profiledesa->video_desa = $request->video_desa;
-      $profiledesa['foto_kades'] = $request->file('foto_kades')->store('', 'public');
+    $profiledesa->sejarah_kampung = $request->sejarah_kampung;
+    $profiledesa->video_desa = $request->video_desa;
+    $profiledesa['img_desa'] = $request->file('img_desa')->store('', 'public');
 
-      $profiledesa->save();
+    $profiledesa->save();
 
-      return redirect()->back()->with([
-        'message' => 'Profile Desa berhasil Ditambahkan',
-        'status' => 'Profile Desa berhasil Ditambahkan'
-      ]);
-    }
+    return redirect()->back()->with([
+      'message' => 'Profile Desa berhasil Ditambahkan',
+      'status' => 'Profile Desa berhasil Ditambahkan'
+    ]);
+  }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
+  public function updatePropDesa(Request $request, $id)
+  {
+    $profiledesa = SettingModel::select('id', 'img_desa', 'video_desa', 'sejarah_kampung')->where('id', 1)->first();
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
+    $profiledesa->sejarah_kampung = $request->sejarah_kampung;
+    $profiledesa->video_desa = $request->video_desa;
+    $profiledesa['img_desa'] = $request->file('img_desa')->store('', 'public');
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
+    $profiledesa->save();
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
+    return redirect()->back()->with([
+      'message' => 'Profile Desa berhasil Diubah',
+      'status' => 'Profile Desa berhasil Diubah'
+    ]);
+  }
+
+  public function storeTDP(Request $request)
+  {
+    $tdp = new SettingModel();
+
+    $tdp->kategori_tdp = $request->kategori_tdp;
+    $tdp->judul_tdp = $request->judul_tdp;
+    $tdp->desc_tdp = $request->desc_tdp;
+    $tdp['gambar_tdp'] = $request->file('gambar_tdp')->store('', 'public');
+
+    $tdp->save();
+
+    return redirect()->back()->with([
+      'message' => 'Data berhasil Ditambahkan',
+      'status' => 'Data berhasil Ditambahkan'
+    ]);
+  }
+
+  public function updateTDP(Request $request, $id)
+  {
+    $tdp = SettingModel::where('id', $id)->first();
+
+    $tdp->judul_tdp = $request->judul_tdp;
+    $tdp->desc_tdp = $request->desc_tdp;
+    $tdp['gambar_tdp'] = $request->file('gambar_tdp')->store('', 'public');
+
+    $tdp->save();
+
+    return redirect()->back()->with([
+      'message' => 'Data berhasil Diubah',
+      'status' => 'Data berhasil Diubah'
+    ]);
+  }
 }

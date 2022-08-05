@@ -12,7 +12,11 @@ Profil Desa
       <div class="card-body p-0 bg-transparent">
         <div class="row">
           <div class="col-lg-12">
-            <img src="{{url('frontend/assets/img/2.jpg')}}" class="img-fluid border-radius-xl" alt="foto kampung">
+            @if ($setprofile != null)
+            <img src="{{ asset('storage/'.$setprofile->img_desa) }}" class="img-fluid border-radius-xl" alt="foto kampung">
+            @else
+            <img src="" class="img-fluid border-radius-xl" alt="foto kampung">
+            @endif
           </div>
         </div>
       </div>
@@ -28,12 +32,22 @@ Profil Desa
         <div class="row">
           <div class="col-lg-5">
             <h6 class="text-capitalize">Video Desa</h6>
-
+            <div class="ratio ratio-16x9">
+              @if ($setprofile != null)
+              <iframe width="300" height="220" src="{{$setprofile->video_desa}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              @else
+              <iframe width="300" height="220" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              @endif
+            </div>
           </div>
           <div class="col-lg-7">
             <h6 class="text-capitalize">Sejarah Kampung</h6>
             <p class="mb-3">
-              Kampung xxx merupakan kampung yang mayoritas penduduknya adalah suku xxx. Sebelum disahkan namanya menjadi Xxx, masyarakat setempat menyebut kampung tersebut dengan istilah xxx yang diambil dari nama kepala adat saat kampung pertama kali pindah di lokasi yang sekarang didiami. Sebelum tahun 1985, seperti budaya suku xxx pada umumnya, masyarakat Xxx hidup dengan berpindah-pindah tempat di sepanjang tepian Sungai Segah dari hulu ke hilir sungai, sampai akhirnya mulai menetap di lokasi kampung yang sekarang.
+              @if ($setprofile != null)
+              {{$setprofile->sejarah_kampung}}
+              @else
+
+              @endif
             </p>
           </div>
         </div>
@@ -55,7 +69,7 @@ Profil Desa
             <div class="numbers">
               <p class="text-sm mb-0 text-uppercase font-weight-bold">Total Warga</p>
               <h5 class="font-weight-bolder">
-               {{$total_warga}}
+               {{$total_warga->ktp}}
               </h5>
             </div>
           </div>
@@ -76,7 +90,7 @@ Profil Desa
             <div class="numbers">
               <p class="text-sm mb-0 text-uppercase font-weight-bold">Total KK</p>
               <h5 class="font-weight-bolder">
-               {{$total_kk}}
+               {{$total_warga->domisili}}
               </h5>
             </div>
           </div>
@@ -97,7 +111,7 @@ Profil Desa
             <div class="numbers">
               <p class="text-sm mb-0 text-uppercase font-weight-bold">Laki-Laki</p>
               <h5 class="font-weight-bolder">
-               {{$warga_laki}}
+               {{$kelamin->laki}}
               </h5>
             </div>
           </div>
@@ -118,7 +132,7 @@ Profil Desa
             <div class="numbers">
               <p class="text-sm mb-0 text-uppercase font-weight-bold">Perempuan</p>
               <h5 class="font-weight-bolder">
-               {{$warga_perempuan}}
+               {{$kelamin->perempuan}}
               </h5>
             </div>
           </div>

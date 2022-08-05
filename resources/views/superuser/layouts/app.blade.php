@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
   @include('superuser.components.meta')
+  @stack('meta_gis')
   @include('superuser.components.style')
+  @stack('style_gis')
   <title>
   @yield('title')
   </title>

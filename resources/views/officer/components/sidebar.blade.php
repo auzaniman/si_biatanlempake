@@ -14,7 +14,7 @@
   <div class=" w-auto ">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link nav-active" href="{{route('officer.dashboard')}}">
+        <a class="nav-link nav-active @if (\Request::is('officer')) active @endif" href="{{route('officer.dashboard')}}">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="ni ni-tv-2 text-primary text-sm"></i>
           </div>
@@ -22,7 +22,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-active" href="{{route('officer.datauser')}}">
+        <a class="nav-link nav-active @if (\Request::is('officer/datausers')) active @endif" href="{{route('officer.datauser')}}">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="ni ni-circle-08 text-primary text-sm"></i>
           </div>
@@ -30,7 +30,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-active" href="{{route('officer.chart')}}">
+        <a class="nav-link nav-active @if (\Request::is('officer/profiledesa')) active @endif" href="{{route('officer.profiledesa')}}">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="ni ni-calendar-grid-58 text-primary text-sm"></i>
           </div>
@@ -38,7 +38,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-active" href="{{route('officer.tantangan')}}">
+        <a class="nav-link nav-active @if (\Request::is('officer/tdp')) active @endif" href="{{route('officer.tantangan')}}">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="ni ni-credit-card text-primary text-sm"></i>
           </div>
@@ -46,7 +46,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-active" href="{{route('officer.rencana')}}">
+        <a class="nav-link nav-active @if (\Request::is('officer/rjm')) active @endif" href="{{route('officer.rencana')}}">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="ni ni-app text-primary text-sm"></i>
           </div>
@@ -54,7 +54,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-active" href="{{route('officer.agenda')}}">
+        <a class="nav-link nav-active @if (\Request::is('officer/agenda')) active @endif" href="{{route('officer.agenda')}}">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="ni ni-world-2 text-primary text-sm"></i>
           </div>
@@ -65,7 +65,7 @@
         <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Account pages</h6>
       </li> --}}
       <li class="nav-item">
-        <a class="nav-link nav-active" href="{{route('officer.keuangan')}}">
+        <a class="nav-link nav-active @if (\Request::is('officer/keuangan')) active @endif" href="{{route('officer.keuangan')}}">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="ni ni-single-02 text-primary text-sm"></i>
           </div>
@@ -73,7 +73,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-active" href="{{route('officer.layanan')}}">
+        <a class="nav-link nav-active @if (\Request::is('officer/layanan')) active @endif" href="{{route('officer.layanan')}}">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="ni ni-single-copy-04 text-primary text-sm"></i>
           </div>
@@ -81,7 +81,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-active" href="{{route('officer.peta')}}">
+        <a class="nav-link nav-active @if (\Request::is('officer/peta')) active @endif" href="{{route('officer.peta')}}">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="ni ni-collection text-primary text-sm"></i>
           </div>
@@ -89,7 +89,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-active" href="{{route('officer.setting')}}">
+        <a class="nav-link nav-active @if (\Request::is('officer/setting')) active @endif" href="{{route('officer.setting')}}">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="fa fa-cog text-primary text-sm"></i>
           </div>

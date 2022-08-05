@@ -18,8 +18,6 @@ class ProfileAkunController extends Controller
 {
     public function index()
     {
-      // $user = User::where('id', '=', Auth::user()->id)->first();
-
       $data = User::select('users.*','pk.name as provinsiktp','pd.name as provinsidom','rk.name as kotaktp','rd.name as kotadom', 'dk.name as kecktp', 'dd.name as kecdom', 'vk.name as desaktp', 'vd.name as desadom')
       ->join('provinces as pk', 'users.provinsi_ktp', 'pk.id')
       ->join('regencies as rk', 'users.kota_ktp', 'rk.id')

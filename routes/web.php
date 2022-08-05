@@ -1,6 +1,5 @@
 <?php
 use App\Http\Controllers\Officer\Auth\LoginController;
-use App\Http\Controllers\Officer\DashboardController;
 use App\Http\Controllers\Officer\MainDashboardController;
 use App\Http\Controllers\Officer\ProfileDesaOfficerController;
 use App\Http\Controllers\Officer\TantanganDanPotensiOfficerController;
@@ -8,9 +7,6 @@ use App\Http\Controllers\Officer\RencanaJangkaMenengahOfficerController;
 use App\Http\Controllers\Officer\KeuanganOfficerController;
 use App\Http\Controllers\Officer\AgendaOfficerController;
 use App\Http\Controllers\Officer\LayananOfficerController;
-use App\Http\Controllers\Officer\ChartBarOfficerController;
-use App\Http\Controllers\Officer\BerkasOfficerController;
-use App\Http\Controllers\Officer\PetaDesaOfficerController;
 use App\Http\Controllers\Officer\SettingController;
 use App\Http\Controllers\Officer\Administrasi\AdministrasiOfficerController;
 use App\Http\Controllers\Officer\Administrasi\SuratDomisiliOfficerController;
@@ -27,19 +23,17 @@ use App\Http\Controllers\User\RencanaJangkaMenengahController;
 use App\Http\Controllers\User\KeuanganController;
 use App\Http\Controllers\User\AgendaController;
 use App\Http\Controllers\User\LayananController;
-use App\Http\Controllers\User\ChartBarController;
 use App\Http\Controllers\User\BerkasController;
-use App\Http\Controllers\User\PetaDesaController;
 use App\Http\Controllers\User\Administrasi\SuratDomisiliController;
 use App\Http\Controllers\User\Perizinan\SuketUsahaController;
 use App\Http\Controllers\User\NonPerizinan\SKTMController;
 use App\Http\Controllers\User\NonPerizinan\SupengDesaController;
-use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Auth\RegisterController;
-use App\Http\Controllers\DependantDropdownController;
 use App\Http\Controllers\Officer\DataUserController;
+use App\Http\Controllers\Webgis\WebGisMemberController;
+use App\Http\Controllers\Webgis\WebGisOfficerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -81,11 +75,11 @@ Route::middleware(["officer"])
 
   // Profile Desa
   // Route::get("/desa", [ProfileDesaController::class, "Index"])->name("profile_desa");
-  Route::get('/chart', [ChartBarOfficerController::class, "index"])->name("chart");
-  Route::post('/chart_add', [ChartBarOfficerController::class, "store"])->name("chart_add");
-  Route::get('/chart_edit_page', [ChartBarOfficerController::class, "index_edit"])->name("chart_edit_page");
-  Route::put('/chart_edit/{id}', [ChartBarOfficerController::class, "update"])->name("chart_edit");
-  Route::delete('/chart_delete/{id}', [ChartBarOfficerController::class, "destroy"])->name("chart_delete");
+  Route::get('/profiledesa', [ProfileDesaOfficerController::class, "index"])->name("profiledesa");
+  Route::post('/chart_add', [ProfileDesaOfficerController::class, "store"])->name("chart_add");
+  Route::get('/chart_edit_page', [ProfileDesaOfficerController::class, "index_edit"])->name("chart_edit_page");
+  Route::put('/chart_edit/{id}', [ProfileDesaOfficerController::class, "update"])->name("chart_edit");
+  Route::delete('/chart_delete/{id}', [ProfileDesaOfficerController::class, "destroy"])->name("chart_delete");
 
   // TDP
   Route::get("/tdp", [TantanganDanPotensiOfficerController::class, "Index"])->name("tantangan");
@@ -169,14 +163,15 @@ Route::middleware(["officer"])
   // End Layanan
 
   // Peta Desa
-  Route::get("/peta", [PetaDesaOfficerController::class, "Index"])->name("peta");
-
-  // Berkas
-  Route::get("/berkas", [BerkasOfficerController::class, "Index"])->name("berkas");
+  Route::get("/peta", [WebGisOfficerController::class, "Index"])->name("peta");
 
   // Setting
   Route::get("/setting", [SettingController::class, "index"])->name("setting");
-  Route::post("/set_profiledesa", [SettingController::class, "store"])->name("setprofiledesa");
+  Route::get("/setting_tdp", [SettingController::class, "indexTDP"])->name("settingtdp");
+  Route::post("/set_profiledesa", [SettingController::class, "storePropDesa"])->name("setprofiledesa");
+  Route::put("/edit_set_profiledesa/{id}", [SettingController::class, "updatePropDesa"])->name("editsetprofiledesa");
+  Route::post("/set_tdp", [SettingController::class, "storeTDP"])->name("settdp");
+  Route::put("/edit_set_tdp/{id}", [SettingController::class, "updateTDP"])->name("editsettdp");
 });
 
 // Dashboard User
@@ -254,7 +249,7 @@ Route::prefix("user")
   // End Layanan
 
   // Peta Desa
-  Route::get("/peta", [PetaDesaController::class, "Index"])->name("peta");
+  Route::get("/peta", [WebGisMemberController::class, "Index"])->name("peta");
 
   // Berkas
   Route::get("/berkas", [BerkasController::class, "Index"])->name("berkas");

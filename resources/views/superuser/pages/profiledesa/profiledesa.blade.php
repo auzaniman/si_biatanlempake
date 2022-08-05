@@ -8,11 +8,15 @@ Profil Desa
 {{-- Foto Kampung --}}
 <div class="row">
   <div class="col-lg-12 mb-lg-0 mb-4">
-    <div class="card h-100">
+    <div class="card  h-100">
       <div class="card-body p-0 bg-transparent">
         <div class="row">
           <div class="col-lg-12">
-            <img src="{{url('frontend/assets/img/1.png')}}" class="img-fluid border-radius-xl" alt="foto kampung">
+            @if ($setprofile != null)
+            <img src="{{ asset('storage/'.$setprofile->img_desa) }}" class="img-fluid border-radius-xl" alt="foto kampung">
+            @else
+            <img src="" class="img-fluid border-radius-xl" alt="foto kampung">
+            @endif
           </div>
         </div>
       </div>
@@ -23,19 +27,27 @@ Profil Desa
 {{-- Video dan Deskripsi --}}
 <div class="row mt-4">
   <div class="col-lg-12 mb-lg-0 mb-4">
-    <div class="card h-100">
+    <div class="card  h-100">
       <div class="card-body pb-0 pt-3 bg-transparent">
         <div class="row">
-          <div class="col-lg-5 mb-3">
+          <div class="col-lg-5">
             <h6 class="text-capitalize">Video Desa</h6>
             <div class="ratio ratio-16x9">
-              <iframe width="300" height="220" src="https://www.youtube.com/embed/7PPgjM0OzaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              @if ($setprofile != null)
+              <iframe width="300" height="220" src="{{$setprofile->video_desa}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              @else
+              <iframe width="300" height="220" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              @endif
             </div>
           </div>
           <div class="col-lg-7">
             <h6 class="text-capitalize">Sejarah Kampung</h6>
             <p class="mb-3">
-              Kampung xxx merupakan kampung yang mayoritas penduduknya adalah suku xxx. Sebelum disahkan namanya menjadi Xxx, masyarakat setempat menyebut kampung tersebut dengan istilah xxx yang diambil dari nama kepala adat saat kampung pertama kali pindah di lokasi yang sekarang didiami. Sebelum tahun 1985, seperti budaya suku xxx pada umumnya, masyarakat Xxx hidup dengan berpindah-pindah tempat di sepanjang tepian Sungai Segah dari hulu ke hilir sungai, sampai akhirnya mulai menetap di lokasi kampung yang sekarang.
+              @if ($setprofile != null)
+              {{$setprofile->sejarah_kampung}}
+              @else
+
+              @endif
             </p>
           </div>
         </div>

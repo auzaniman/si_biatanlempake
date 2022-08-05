@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\User;
+namespace App\Http\Controllers\Webgis;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class PetaDesaController extends Controller
+class WebGisMemberController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class PetaDesaController extends Controller
      */
     public function index()
     {
-        return view('superuser.pages.petadesa');
+        return view('webgis.pages.index-member');
     }
 
     /**

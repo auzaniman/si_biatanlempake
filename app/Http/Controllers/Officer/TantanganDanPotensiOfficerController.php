@@ -3,83 +3,53 @@
 namespace App\Http\Controllers\Officer;
 
 use App\Http\Controllers\Controller;
+use App\Models\SettingModel;
 use Illuminate\Http\Request;
 
 class TantanganDanPotensiOfficerController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        return view('officer.pages.tantangandanpotensi');
-    }
+  public function index()
+  {
+    $getdatatantangan = SettingModel::select('id', 'kategori_tdp', 'gambar_tdp', 'judul_tdp', 'desc_tdp')
+      ->where('kategori_tdp', 1)
+      ->get();
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
+      $getdatapotensi = SettingModel::select('id', 'kategori_tdp', 'gambar_tdp', 'judul_tdp', 'desc_tdp')
+      ->where('kategori_tdp', 2)
+      ->get();
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
+    return view('officer.pages.tantangandanpotensi',
+      compact('getdatatantangan', 'getdatapotensi')
+    );
+  }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
+  public function create()
+  {
+      //
+  }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
+  public function store(Request $request)
+  {
+      //
+  }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
+  public function show($id)
+  {
+      //
+  }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
+  public function edit($id)
+  {
+      //
+  }
+
+  public function update(Request $request, $id)
+  {
+      //
+  }
+
+  public function destroy($id)
+  {
+      //
+  }
 }

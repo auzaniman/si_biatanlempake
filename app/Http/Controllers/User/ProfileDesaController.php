@@ -6,12 +6,15 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\ChartBar;
+use App\Models\SettingModel;
 use App\Models\User;
 
 class ProfileDesaController extends Controller
 {
   public function index()
   {
+    $setprofile = SettingModel::all()->first();
+
     $charts = ChartBar::all();
 
     $total_kk = User::distinct()->count('kk');
@@ -58,7 +61,7 @@ class ProfileDesaController extends Controller
 
     return
     view('superuser.pages.profiledesa.profiledesa',
-      compact('rt','total_warga','total_kk','kelamin','sd','smp','sma','d1','d2','d3','d4','s1','s2','s3','jmlwarga','jmlkepala')
+      compact('setprofile','rt','total_warga','total_kk','kelamin','sd','smp','sma','d1','d2','d3','d4','s1','s2','s3','jmlwarga','jmlkepala')
     );
   }
 }
