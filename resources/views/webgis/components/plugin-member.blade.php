@@ -19,14 +19,14 @@
       <div class="mt-lg-0 mt-3">
         <a href="{{route('dashboard')}}" class="mb-0 font-weight-bold @if (\Request::is('user')) active @endif">
           <i class="ni ni-single-02  text-primary text-sm me-1"></i>
-           Profile Akun
+           Profil Akun
         </a>
       </div>
       <hr class="horizontal dark my-sm-4">
       <div class="mt-3">
         <a href="{{route('profile_desa')}}" class="mb-0 font-weight-bold @if (\Request::is('user/profile_desa')) active @endif">
           <i class="ni ni-building  text-primary text-sm me-1"></i>
-           Profile Desa
+           Profil Kampung
         </a>
       </div>
       <hr class="horizontal dark my-sm-4">

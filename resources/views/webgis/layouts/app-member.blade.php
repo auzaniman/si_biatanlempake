@@ -5,9 +5,15 @@
   @include('webgis.components.style')
   <title>@yield('title')</title>
 </head>
-<body>
-  @yield('content')
-  @include('webgis.components.plugin-member')
+<body class="g-sidenav-show">
+  @include('superuser.components.sidebar')
+  {{-- <main class="main-content position-relative border-radius-lg "> --}}
+    @include('superuser.components.topbar')
+    {{-- <div class="container-fluid py-3"> --}}
+      @yield('content')
+      @include('webgis.components.plugin-member')
+    </div>
+  </main>
   @include('webgis.components.script')
 </body>
 </html>

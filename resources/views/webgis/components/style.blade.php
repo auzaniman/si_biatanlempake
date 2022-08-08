@@ -124,13 +124,27 @@
 </style>
 <style>
   html, body, #map {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     padding: 0;
     margin: 0;
   }
 </style>
 
+<style>
+  @media (min-width: 992px) {
+
+    nav[aria-label="breadcrumb"] {
+      margin-left: 17rem;
+    }
+
+    div .ol-viewport {
+      left: 19.5rem;
+      width: 73% !important;
+      height: 85vh !important;
+    }
+   }
+</style>
 
 <style>
   a span {
