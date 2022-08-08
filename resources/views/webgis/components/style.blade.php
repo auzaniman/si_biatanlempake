@@ -58,9 +58,9 @@
   }
 </style>
 <style>
-  html, body {
+  /* html, body {
     background-color: #ffffff;
-  }
+  } */
   .ol-control button {
     background-color: #f8f8f8 !important;
     color: #000000 !important;

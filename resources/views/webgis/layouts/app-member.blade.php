@@ -5,7 +5,7 @@
   @include('webgis.components.style')
   <title>@yield('title')</title>
 </head>
-<body class="g-sidenav-show">
+<body class="g-sidenav-show bg-gray-200">
   @include('superuser.components.sidebar')
   @include('superuser.components.topbar')
   @yield('content')
