@@ -9,7 +9,7 @@
   @include('superuser.components.sidebar')
   @include('superuser.components.topbar')
   @yield('content')
-  @include('superuser.components.footer')
+  {{-- @include('superuser.components.footer') --}}
   @include('webgis.components.plugin-member')
   @include('webgis.components.script')
 </body>
