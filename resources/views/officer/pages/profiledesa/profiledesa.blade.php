@@ -12,11 +12,13 @@ Profil Desa
       <div class="card-body p-0 bg-transparent">
         <div class="row">
           <div class="col-lg-12">
-            @if ($setprofile != null)
+            {{-- @if ($setprofile != null)
             <img src="{{ asset('storage/'.$setprofile->img_desa) }}" class="img-fluid border-radius-xl" alt="foto kampung">
             @else
             <img src="" class="img-fluid border-radius-xl" alt="foto kampung">
-            @endif
+            @endif --}}
+
+            <img src="{{url('frontend/assets/img/2.jpg')}}" class="img-fluid border-radius-xl" alt="foto kampung">
           </div>
         </div>
       </div>
