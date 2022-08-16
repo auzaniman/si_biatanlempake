@@ -3,6 +3,7 @@
 <head>
   @include('officer.components.meta')
   @include('officer.components.style')
+  @stack('style_ol')
   <title>
   @yield('title')
   </title>

@@ -8,19 +8,17 @@ use Illuminate\Http\Request;
 
 class TantanganDanPotensiOfficerController extends Controller
 {
-  public function index()
+  public function index(Request $request)
   {
-    $getdatatantangan = SettingModel::select('id', 'kategori_tdp', 'gambar_tdp', 'judul_tdp', 'desc_tdp')
-      ->where('kategori_tdp', 1)
-      ->get();
+    // $getdatatantangan = SettingModel::select('id', 'kategori_tdp', 'gambar_tdp', 'judul_tdp', 'desc_tdp')
+    //   ->where('kategori_tdp', 1)
+    //   ->get();
 
-      $getdatapotensi = SettingModel::select('id', 'kategori_tdp', 'gambar_tdp', 'judul_tdp', 'desc_tdp')
-      ->where('kategori_tdp', 2)
-      ->get();
+    //   $getdatapotensi = SettingModel::select('id', 'kategori_tdp', 'gambar_tdp', 'judul_tdp', 'desc_tdp')
+    //   ->where('kategori_tdp', 2)
+    //   ->get();
 
-    return view('officer.pages.tantangandanpotensi',
-      compact('getdatatantangan', 'getdatapotensi')
-    );
+    return view('officer.pages.tantangandanpotensi')->with('i', ($request->input('page', 1) - 1) * 20);
   }
 
   public function create()

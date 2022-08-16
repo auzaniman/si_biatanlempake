@@ -18,13 +18,8 @@
 <script src="{{url('webgis/resources/functions.js')}}"></script>
 <script src="{{url('webgis/resources/ol.js')}}"></script>
 <script src="{{url('webgis/resources/ol-layerswitcher.js')}}"></script>
-<script src="{{url('webgis/resources/ol-geocoder.js')}}"></script>
-<script src="{{url('webgis/layers/BatasDesaKemawi_1.js')}}"></script>
-<script src="{{url('webgis/layers/BatasDesa_2.js')}}"></script>
-<script src="{{url('webgis/layers/KoordinatPetaniBinaan_3.js')}}"></script>
-<script src="{{url('webgis/styles/BatasDesaKemawi_1_style.js')}}"></script>
-<script src="{{url('webgis/styles/BatasDesa_2_style.js')}}"></script>
-<script src="{{url('webgis/styles/KoordinatPetaniBinaan_3_style.js')}}"></script>
+<script src="{{url('webgis/layers/BatasKampungBiatanLempake_1.js')}}"></script>
+<script src="{{url('webgis/styles/BatasKampungBiatanLempake_1_style.js')}}"></script>
 <script src="{{url('webgis/layers/layers.js')}}" type="text/javascript"></script>
 <script src="{{url('webgis/resources/Autolinker.min.js')}}"></script>
 <script src="{{url('webgis/resources/qgis2web.js')}}"></script>

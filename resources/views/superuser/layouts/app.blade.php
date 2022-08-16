@@ -5,6 +5,7 @@
   @stack('meta_gis')
   @include('superuser.components.style')
   @stack('style_gis')
+  @stack('style_ol')
   <title>
   @yield('title')
   </title>
