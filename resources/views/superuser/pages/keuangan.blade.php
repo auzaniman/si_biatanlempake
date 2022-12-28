@@ -34,15 +34,25 @@ Keuangan
             </tr>
           </thead>
           <tbody>
+            @forelse ($pendapatan as $item)
+              <tr>
+                <td>
+                  <p class="mb-0 px-3">{{$item->nama_anggaran}}</p>
+                </td>
+                <td>
+                  <p class="font-weight-bold mb-0"> @currency($item->jumlah_nominal) </p>
+                </td>
+              </tr>
+            @empty
+            @endforelse
             <tr>
               <td>
-                <p class="mb-0 px-3">-</p>
+                <p class="mb-0 px-3 font-weight-bolder">Total</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">Rp. 0</p>
+                <p class="font-weight-bold mb-0">@currency($get_total_pendapatan)</p>
               </td>
             </tr>
-
 
             <thead style="border-top: 5px solid #dee2e6">
               <tr>
@@ -50,20 +60,23 @@ Keuangan
                 <th class="text-uppercase font-weight-bolder ps-2">Nominal</th>
               </tr>
             </thead>
+            @forelse ($pengeluaran as $item)
+              <tr>
+                <td>
+                  <p class="mb-0 px-3">{{$item->nama_anggaran}}</p>
+                </td>
+                <td>
+                  <p class="font-weight-bold mb-0">@currency($item->jumlah_nominal)</p>
+                </td>
+              </tr>
+            @empty
+            @endforelse
             <tr>
               <td>
-                <p class="mb-0 px-3">-</p>
+                <p class="mb-0 px-3 font-weight-bolder">Total</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">Rp. 0</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="mb-0 px-3">Total</p>
-              </td>
-              <td>
-                <p class="font-weight-bold mb-0">Rp. 0</p>
+                <p class="font-weight-bold mb-0">@currency($get_total_pengeluaran)</p>
               </td>
             </tr>
 
@@ -72,7 +85,7 @@ Keuangan
                 <p class="font-weight-bold mb-0 px-3">Sisa Keuangan Desa</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">Rp. 0</p>
+                <p class="font-weight-bold mb-0">@currency($get_sisa_keuangan)</p>
               </td>
             </tr>
             <tr>
@@ -118,19 +131,15 @@ Keuangan
 @endsection
 
 @push('chart_keuangan')
+@push('chart_keuangan')
 <script>
   const ctx4 = document.getElementById('pie-chart3').getContext("2d");
   new Chart(ctx4, {
     type: 'pie',
     data: {
-      labels: [
-        'Pendapatan Asli Desa',
-        'Bantuan dari Pemerintah Kabupaten',
-        'Bantuan dari Pemerintah dan Pemerintah Provinsi',
-        'Sumber Pihak ke-3',
-      ],
+      labels: {!!json_encode($pendapatan_anggaran)!!},
       datasets: [{
-        data: [1000000000, 1000000000, 1000000000, 200000000,],
+        data: {!!json_encode($pendapatan_nominal)!!},
         backgroundColor: [
           'rgb(255, 99, 132)',
           'rgb(54, 162, 235)',
@@ -148,15 +157,9 @@ Keuangan
   new Chart(ctx5, {
     type: 'pie',
     data: {
-      labels: [
-        'Belanja aparatur kampung',
-        'Pembangunan infrastruktur',
-        'Pembangunan ekonomi',
-        'Pembangunan pendidikan',
-        'Pemberdayaan masyarakat',
-      ],
+      labels: {!!json_encode($pengeluaran_anggaran)!!},
       datasets: [{
-        data: [500000000, 1000000000, 500000000, 500000000, 500000000],
+        data: {!!json_encode($pengeluaran_nominal)!!},
         backgroundColor: [
           'rgb(255, 99, 132)',
           'rgb(54, 162, 235)',
@@ -169,4 +172,5 @@ Keuangan
     }
   })
 </script>
+@endpush
 @endpush
