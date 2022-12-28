@@ -6,21 +6,17 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class SettingModel extends Model
+class KeuanganModel extends Model
 {
     use HasFactory;
     use SoftDeletes;
 
-    protected $table = 'setting_officer';
+    protected $table = 'keuangan';
 
     protected $fillable = [
-      'sejarah_kampung',
-      'video_desa',
-      'img_desa',
-
-      'kategori_tdp',
-      'gambar_tdp',
-      'judul_tdp',
-      'desc_tdp',
+      'tahun_anggaran',
+      'tipe_anggaran',
+      'nama_anggaran',
+      'jumlah_nominal',
     ];
 }

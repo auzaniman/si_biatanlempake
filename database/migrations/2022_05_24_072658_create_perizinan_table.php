@@ -38,6 +38,7 @@ class CreatePerizinanTable extends Migration
             $table->string('aset')->nullable();
             $table->text('file_permohonan_suketusaha')->nullable();
             $table->text('keterangan')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

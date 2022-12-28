@@ -23,9 +23,52 @@ Keuangan
       <div class="card-header pb-0">
         <div class="d-flex justify-content-between">
           <h6 class="mb-2">Pendapatan dan Pengeluaran Desa 2021</h6>
-          <button type="submit" class="btn btn-primary btn-sm ms-auto">Tambah</button>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#modal-form" class="btn btn-primary btn-sm ms-auto">Tambah</button>
         </div>
       </div>
+      {{-- Modal --}}
+      <div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="modal-form" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <div class="card card-plain">
+                <div class="card-header pb-0 text-left">
+                  <h3 class="font-weight-bolder text-info text-gradient">Tambah Data</h3>
+                </div>
+                <div class="card-body">
+                  <form role="form text-left" action="{{route('officer.store_keuangan')}}" method="POST">
+                    @csrf
+                    <label hidden>Tahun Anggaran</label>
+                    <div class="input-group mb-3" hidden>
+                      <input type="text" name="tahun_anggaran" id="tahun_anggaran" class="form-control" value="{{ date('Y') }}" >
+                    </div>
+                    <label>Tipe</label>
+                    <div class="input-group mb-3">
+                      <select class="form-control me-3 @error('verifikasi') is-invalid @enderror" id="tipe_anggaran" name="tipe_anggaran">
+                        <option data-display="STATUS">-</option>
+                        <option value="pendapatan">Pendapatan</option>
+                        <option value="pengeluaran">Pengeluaran</option>
+                      </select>
+                    </div>
+                    <label>Keterangan</label>
+                    <div class="input-group mb-3">
+                      <input type="text" name="nama_anggaran" id="nama_anggaran" class="form-control" placeholder="Judul Kebutuhan Pendapatan/Pengeluaran" >
+                    </div>
+                    <label>Jumlah</label>
+                    <div class="input-group mb-3">
+                      <input type="text" name="jumlah_nominal" id="jumlah_nominal" class="form-control" placeholder="Nominal Tanpa Titik" >
+                    </div>
+                    <div class="text-center">
+                      <button type="submit" class="btn btn-round bg-gradient-info btn-lg w-100 mt-4 mb-0">Tambah</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{-- End Modal --}}
       <div class="table-responsive">
         <table class="table align-items-center ">
           <thead>
@@ -35,15 +78,25 @@ Keuangan
             </tr>
           </thead>
           <tbody>
+            @forelse ($pendapatan as $item)
+              <tr>
+                <td>
+                  <p class="mb-0 px-3">{{$item->nama_anggaran}}</p>
+                </td>
+                <td>
+                  <p class="font-weight-bold mb-0"> @currency($item->jumlah_nominal) </p>
+                </td>
+              </tr>
+            @empty
+            @endforelse
             <tr>
               <td>
-                <p class="mb-0 px-3">-</p>
+                <p class="mb-0 px-3 font-weight-bolder">Total</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">Rp. 0</p>
+                <p class="font-weight-bold mb-0">@currency($get_total_pendapatan)</p>
               </td>
             </tr>
-
 
             <thead style="border-top: 5px solid #dee2e6">
               <tr>
@@ -51,20 +104,23 @@ Keuangan
                 <th class="text-uppercase font-weight-bolder ps-2">Nominal</th>
               </tr>
             </thead>
+            @forelse ($pengeluaran as $item)
+              <tr>
+                <td>
+                  <p class="mb-0 px-3">{{$item->nama_anggaran}}</p>
+                </td>
+                <td>
+                  <p class="font-weight-bold mb-0">@currency($item->jumlah_nominal)</p>
+                </td>
+              </tr>
+            @empty
+            @endforelse
             <tr>
               <td>
-                <p class="mb-0 px-3">-</p>
+                <p class="mb-0 px-3 font-weight-bolder">Total</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">Rp. 0</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="mb-0 px-3">Total</p>
-              </td>
-              <td>
-                <p class="font-weight-bold mb-0">Rp. 0</p>
+                <p class="font-weight-bold mb-0">@currency($get_total_pengeluaran)</p>
               </td>
             </tr>
 
@@ -73,7 +129,7 @@ Keuangan
                 <p class="font-weight-bold mb-0 px-3">Sisa Keuangan Desa</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">Rp. 0</p>
+                <p class="font-weight-bold mb-0">@currency($get_sisa_keuangan)</p>
               </td>
             </tr>
             <tr>
@@ -124,14 +180,9 @@ Keuangan
   new Chart(ctx4, {
     type: 'pie',
     data: {
-      labels: [
-        'Pendapatan Asli Desa',
-        'Bantuan dari Pemerintah Kabupaten',
-        'Bantuan dari Pemerintah dan Pemerintah Provinsi',
-        'Sumber Pihak ke-3',
-      ],
+      labels: {!!json_encode($pendapatan_anggaran)!!},
       datasets: [{
-        data: [1000000000, 1000000000, 1000000000, 200000000,],
+        data: {!!json_encode($pendapatan_nominal)!!},
         backgroundColor: [
           'rgb(255, 99, 132)',
           'rgb(54, 162, 235)',
@@ -149,15 +200,9 @@ Keuangan
   new Chart(ctx5, {
     type: 'pie',
     data: {
-      labels: [
-        'Belanja aparatur kampung',
-        'Pembangunan infrastruktur',
-        'Pembangunan ekonomi',
-        'Pembangunan pendidikan',
-        'Pemberdayaan masyarakat',
-      ],
+      labels: {!!json_encode($pengeluaran_anggaran)!!},
       datasets: [{
-        data: [500000000, 1000000000, 500000000, 500000000, 500000000],
+        data: {!!json_encode($pengeluaran_nominal)!!},
         backgroundColor: [
           'rgb(255, 99, 132)',
           'rgb(54, 162, 235)',

@@ -18,6 +18,7 @@ class CreateChartBarsTable extends Migration
             $table->integer('jumlahWarga');
             $table->integer('jumlahKepalaKeluarga');
             $table->string('rt');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

@@ -31,6 +31,7 @@ class CreateAdministrasiTable extends Migration
           $table->text('file_permohonan_surdom')->nullable();
           $table->text('pengantar_rtrw')->nullable();
           $table->text('keterangan')->nullable();
+          $table->softDeletes();
           $table->timestamps();
         });
     }

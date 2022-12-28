@@ -92,6 +92,7 @@ Route::middleware(["officer"])
 
   // Keuangan
   Route::get("/keuangan", [KeuanganOfficerController::class, "Index"])->name("keuangan");
+  Route::post("/post_data_keuangan", [KeuanganOfficerController::class, "store"])->name("store_keuangan");
 
   // Layanan
   Route::get("/layanan", [LayananOfficerController::class, "Index"])->name("layanan");

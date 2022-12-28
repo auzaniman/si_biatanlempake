@@ -23,6 +23,7 @@ class CreateBerkasTable extends Migration
             $table->text('buku_nikah')->nullable();
             $table->text('akta_kelahiran');
             $table->text('paspoto');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

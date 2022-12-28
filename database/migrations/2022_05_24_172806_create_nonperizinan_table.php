@@ -41,6 +41,7 @@ class CreateNonperizinanTable extends Migration
             $table->text('file_permohonan_sktm')->nullable();
             $table->text('file_permohonan_supengdesa')->nullable();
             $table->text('keterangan')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

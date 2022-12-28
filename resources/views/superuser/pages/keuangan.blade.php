@@ -72,7 +72,7 @@ Keuangan
                 <p class="font-weight-bold mb-0 px-3">Sisa Keuangan Desa</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">Rp. 100.000.000</p>
+                <p class="font-weight-bold mb-0">Rp. 0</p>
               </td>
             </tr>
             <tr>

@@ -26,6 +26,8 @@ class CreateSettingOfficerTable extends Migration
             $table->text('gambar_tdp')->nullable();
             $table->string('judul_tdp')->nullable();
             $table->string('desc_tdp')->nullable();
+
+            $table->softDeletes();
             $table->timestamps();
         });
     }
