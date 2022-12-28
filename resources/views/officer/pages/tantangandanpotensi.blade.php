@@ -8,6 +8,18 @@ Tantangan Potensi
 <div class="row">
   <div class="col-lg-12 mb-lg-0 mb-4">
     <div class="card h-100">
+      <div class="card-header pb-0 pt-3 bg-transparent">
+        <h6 class="text-capitalize">Potensi</h6>
+        <p class="mb-3">
+          Pada sektor ekonomi. Sektor unggulan selama ini masih didominasi oleh sektor pertanian, perdagangan/wirausaha dan juga perkebunan. Hal in didasari oleh fakta bahwa dapat dipastikan wilayah Biatan Lempake sebagian besar merupakan lahan kering pertanian dan perkebunan sehingga mayoritas matapencaharian penduduk adalah bertani dan berkebun. Tetapi di Kampung Biatan Lempake sebenarnya memiliki potensi untuk bagian nelayan, karena tidak sedikit warga bekerja sebagai nelayan. Letak topografi kampung yang cukup strategis (berada ditengah-tengah dari 8 kampung yang ada di Kecamatan Biatan) membuat Biatan Lempake cukup strategis jika meningkatkan perekonomian masyarakat kampung kampung dengan membuat wadah seperti pasar yang menjual hasil lokal masyarakat seperti pertanian, perikanan maupun hal sejenis lainnya.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{{-- <div class="row">
+  <div class="col-lg-12 mb-lg-0 mb-4">
+    <div class="card h-100">
       <div class="card-header bg-transparent p-0 mx-4 mt-3">
         <h6 class="text-uppercase font-weight-bold">Tantangan dan Potensi Kampung Biatan Lempake</h6>
       </div>
@@ -579,7 +591,7 @@ Tantangan Potensi
       </div>
     </div>
   </div>
-</div>
+</div> --}}
 @endsection
 
 {{-- <div class="row">

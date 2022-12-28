@@ -14,7 +14,7 @@ Rencana
       </div>
     </div>
   </div>
-  <div class="col-lg-8 mb-lg-0">
+  {{-- <div class="col-lg-8 mb-lg-0">
     <div class="card h-100">
       <div class="card-body pb-0 pt-3 bg-transparent">
         <i class="fa fa-eye text-warning" aria-hidden="true"></i>
@@ -32,9 +32,9 @@ Rencana
         </p>
       </div>
     </div>
-  </div>
+  </div> --}}
 </div>
-<div class="row mt-4">
+{{-- <div class="row mt-4">
   <div class="col-lg-12 mb-lg-0">
     <div class="card">
       <div class="card-body pb-0 pt-3 bg-transparent">
@@ -55,11 +55,11 @@ Rencana
       </div>
     </div>
   </div>
-</div>
+</div> --}}
 {{-- End --}}
 
 {{-- Arah Kebijakan Pmbangunan Kampung --}}
-<div class="row mt-4">
+{{-- <div class="row mt-4">
   <div class="col-lg-12 mb-lg-0">
     <div class="card">
       <div class="card-body pb-0 pt-3 bg-transparent">
@@ -298,11 +298,11 @@ Rencana
       </div>
     </div>
   </div>
-</div>
+</div> --}}
 {{-- End --}}
 
 {{-- Strategi Pencapaian --}}
-<div class="row mt-4">
+{{-- <div class="row mt-4">
   <div class="col-12 mb-lg-0 mb-4">
     <div class="card">
       <div class="card-body pb-0 pt-3 bg-transparent">
@@ -317,6 +317,6 @@ Rencana
       </div>
     </div>
   </div>
-</div>
+</div> --}}
 {{-- End --}}
 @endsection

@@ -50,22 +50,21 @@ Profil Desa
               @else
 
               @endif --}}
-              Biatan Bapinang merupakansalah satu dari empat perkampungan suku Dayak asli yang ada di wilayah Kecamatan Biatan, sehingga dapat dikatakan bahwa Kampung Biatan Bapinang ini adalah Perkampungan yang dibangun dari perkembangan peradaban adat suku yang sudah lama dan turun temurun menempati kampung tersebut.
+              Pada awalnya Kampung Biatan Lempake bernama Kampung Selengkop dengan Kepala Kampung Bapak Musi dan Sekretaris Antonius Kotin yang menjabat dari tahun 1963-1973. Pada tahun 1964 Bapak Musi di gantikan oleh Bapak Antonius, di akhir tahun itupula Perusahaan Kayu PT. Gonfu mulai mendarat di Kampung Karangan (Muara Bajo) dan mulai beroprasi di kampung tersebut.
               <br>
-              Menurut cerita kampung ini dibangun oleh kesatuan Suku Dayak Basap, hal ini terlihat sampai sekarang yakni sebagian besar komunitas yang mendiami kampung tersebut adalalah dari suku Dayak Basap.
+              Diawal tahun 1975 Perusahaan PT Gonfu mulai mengembangkan sayapnya di Biatan Laut yang sekarang Muara Biatan dan terus mengembangkan sayapnya dan sampai ke Biatan Lempake, disitulah cikal bakal awal Kampung Lempake sekarang. Kurang lebih sebulan PT. Gonfu menginjakkan kaki di Lempake, maka pembangunan Tapak atau perumahan mulai dibangun dan menjadi kampung sampai sekarang.
               <br>
-              Sebagaimana sejarah perkampungan suku dayak di pedalaman kalimantan, Perkampungan tidak tahu pasti kapan berdirinya, oleh siapa dan dari mana asal-usul kampung ini secara pasti memang belum ada penelitian oleh para ahli. Namun berdasarkan Cerita dari sesepuh kampung, dapat kami gambarkan bahwa Kampung Biatan Bapinang, pada mulanya bernama “Nuntulung”, nama itu diambil dari pohon semak-semak sejenis “Keladi” yang pada saat itu banyak tumbuh disekitar perkampungan tersebut, oleh masyarakat setempat rumpun pohon jenis keladi itu dinamakan “BINTULUNG”
+              Pertengahan tahun 1875 PT. Gonfu mulai beroperasi dan tahun itu pula langsung berproduksi membabat hutan di Lempake dan sekitarnya hingga habis. Tahun-tahun berikutnya PT. Gonfu beroperasi dengan lancar maka orang-orang di sekitar Kampung dan orang-orang luar kampung mulai berdatangan dan membuat pondok disekitar lokasi Perusahaan sehingga ramailah perusahaan PT. Gonfu.
               <br>
-              Sekelompok masyarakat yang tinggal di kampung itu bukan berasal dari situ namun konon berasal dari Perbukitan batu/Gua  batu  yang  hidupnya masih nomaden/berpindah-pindah dari tempat satu ke tempat lainnya tergantung dimana mereka mendapatkan Rizki dan tidak mendapat gangguan dari pihak-pihak lain, sebagian yang tidak berpindah lagi, menetap di kampung itu.
+              Dengan di motori oleh tiga orang tokoh masyarakat: Petta Hemma, Arbain dan Alias Salam. Membuat pondok disekitar perusahaan dan yang menjadi batas antara pondok mereka dan perusahaan adalah jalanan. PT. Gonfu telah berjalan selama satu tahun makin banyak pula pondok yang berdiri di sekitar perusahaan terutama orang-orang Karagan. Maka dengan prakarsa Bapak Camat Talisayan pada waktu itu adalah Bapak Ngatimin.K, Kapolsek Bapak Abdul Kadir dan Koramil Bapak Anton mulai menata pondok-pondok orang yang ada di sekitar prusahaan. Pada tahun 1978 yang tadinya kantor Kepala Kampung berada di Selengkop dalam di pindah keluar (Lempake) yang pada saat itu menjabat Kepala Kampung adalah Bapak Antonius Kotin dan Sekretaris Kampung adalah Bapak Sainuddin. Diawal tahun 1978 Bapak Antonius Kotin meninggal dunia, maka Bapak Sainuddin diangkat menjadi Pejabat Sementara (PJS). Pada tahun1981
+              akhir, dilantiklah Bapak Alias Salam sebagai Kepala Kampung dan Sekretaris Kampung Bapak Sainuddin.
               <br>
-              Seiring dengan penataan wilayah Indonesia Pasca Indonesia merdeka, termasuk dalam hal ini Pulau Kalimantan, untuk itu guna perbaikan administrasi, oleh Pejabat Kecamatan Talisayan Nama kampung itu diubah menjadi Kampung Biatan Bapinang, barang kali karena masih satu jalur dengan sungai Biatan.
+              Seiring berjalannya waktu PT. Gonfu mulai melirik tempat lain untuk memperluas arealnya, maka pada tahun 1984 PT. Gonfu pindah ke Lenggo Kecamatan Batu Putih sekarang dan digantikan oleh PT. Sumalindo, berjalan selama 3 tahun yaitu 1984-1987 dan pada akhirnya PT. Sumalindo tutup dan semua rumah-rumah karyawan dikuasakan kepada tokoh masyarakat atas nama masyarakat pada saat itu Bapak Petta Hemma, kemudian dibagikan kepada orang- orang yang pindah ke Lempake sehingga Kampung bertambah ramai.
               <br>
-              Dalam perkembanganya, Suku Dayak yang tinggal di kampung ini cukup terbuka, sehingga mereka juga menerima pendatang dari luar, maka sampai saat ini bukan hanya suku dayak basap saja yang tinggal di sana, namun juga dari suku suku lain, yang hidup berdampingan, saling menghargai dan menghormati antar keyakinan yang berlainan. Sekarang ini penduduk kampung Biatan Bapinang sudah bisa di katakan heterogen karena ada suku-suku lain yang tinggal di kampug itu, diantaranya suku dayak bugis, jawa, sunda, ntb, flores, bali, batak dll. dengan aneka ragam adat dan budayanya juga.
+              Pada tahun 1987, tahun dimana Kampung mengalami pergantian sekretaris dengan Bapak Suparni yang bertahan selama 2 tahun. Pada awal 1989 Bapak Alias Salam berhenti menjadi Kepala Kampung dan digantikan oleh Bapak Suparni sebagai PJS dan berlaku selama 2 tahun.
               <br>
-              Dalam bidang keagamaan, Masyarakat Kampung Biatan Bapinang pada awalnya adalah penganut agama suku/animisme, hal ini nampak dari tata cara kebiasaan orang-orang tua yang masih nampak sekarang ini seperti adat Bakudung/ Erau, Istilah “Kampunan” dan lain-lain yang masih melekat sampai sekarang, baru pada dekade tujuh puluhan (sektar tahun 1976) missionaris agama Kristen (Kingmi) masuk ke Kampung Biatan Bapinang, oleh karenanya sebagian besar masyarakat di sana menganut agama Kristen.
-              <br>
-              Dengan masuknya suku Bugis ke Kampung Biatan Bapinang, berpengaruh juga terhadap adat-istiadat dan agama, maka untuk saat ini selain Agama Kristen agama Islam juga berkembang pesat. Perbedaan suku dan agama bukan menjadi penghalang masyarakat untuk bersatu, mereka hidup berdampingan satu sama lainnya, saling membantu dan saling menghormati.
-
+              Tahun 2001 awal, terjadi pemilihan Kepala Kampung, yang terpilih adalah Bapak Nampiyu dengan Sekretaris adalah Bapak M.Ali, 2 tahun kemudian bapak
+              M. Ali mengundurkan diri diganti oleh Bapak Andi Resmin. Tahun 2006 akhir terjadi pemilihan Kepala Kampung lagi dan yang terpilih adalah Bapak Andi Resmin, tidak lama kemudian tepatnya tahun 2007 Andi Resmin mengundurkan diri menjadi kepala kampung dan digantikan oleh sekretaris sebagai pejabat sementara yaitu Bapak Andi Asri. Satu tahun kemudian terjadi pemilihan kepala kampung dan dimenangkan oleh Bapak Andi Muliadi dan sekretaris Bapak Andi Asri dan dijabat oleh (PJS) Baihaqi selama 1 tahun 5 bulan kemudian diadakan pemilihan dan terpilihlah Bapak Andi Muliadi hingga sekarang.
             </p>
           </div>
         </div>
@@ -83,26 +82,27 @@ Profil Desa
       </div>
     </div>
     <ol class="gradient-list">
-      <li>	Kepala Kampung  I	: Siwai ( 1983 s/d 1988 )</li>
-      <li>	Kepala Kampung II	: Jhon. L (1989 s/d 1994)</li>
-      <li>	Kepala Kampung III	: David (1995 s/d) 2000)</li>
-      <li>	Kepala Kampung IV	: Riansyah	(2001 s/d 2005)</li>
-      <li>	Kepala Kampung V	: Thomas. M	(2006 s/d 2009)</li>
-      <li>	Kepala Kampung(Pj)	:  Tri Suyanto, S.IP	(2010)</li>
-      <li>	Kepala Kampung VII	:  Ramli	( 2011 s/d2017 )</li>
-      <li>	Kepala Kampung VIII (Pj)	:  Tri Suyanto, S.IP	(2017)</li>
-      <li>	Kepala Kampung  IX	: Heberly	(2018 s/d sekarang)</li>
+      <li>  Kepala Kampung	: Antonius Kotin </li>
+      <li>  PJS	: Sainuddin </li>
+      <li>  Kepala Kampung	: Alias Salam </li>
+      <li>  PJS	: Suparni </li>
+      <li>  Kepala Kampung	:Nampiyu </li>
+      <li>  Kepala Kampung	: Andi Resmin </li>
+      <li>  PJS	: Andi Asri </li>
+      <li>  Kepala Kampung	:  Muliadi </li>
+      <li>  PJS	:Baihaqi </li>
+      <li>  Kepala Kampung	: AndiMuliadi </li>
     </ol>
     <div class="card px-0 mb-4">
       <div class="card-body pb-0 pt-3 bg-transparent">
         <i class="fa text-warning fa-money" aria-hidden="true"></i>
-        <h5 class="text-capitalize">Kondisi Ekonomi</h5>
+        <h5 class="text-capitalize">Keadaan Ekonomi dan Potensi Mendatang</h5>
         <p>
-          Kondisi ekonomi masyarakat Kampung Biatan Bapinangsecara kasat mata terlihat jelas perbedaannya antara Rumah Tangga yang berkategori miskin, sangat miskin, sedang dan kaya. Hal ini disebabkan karena mata pencahariannya di sektor- sektor usaha yang berbeda-beda pula, sebagian besar di sektor non formal seperti buruh Harian Lepas Buruh bangunan, buruh tani, petani Ladang, perkebunan karet dan sawit dan sebagian kecil di sektor formal seperti PNS pemda, Honorer, guru, tenaga medis, dll.
+          Sebagian besar warga Kampung Biatan Lempake merupakan kaum golongan menengah kebawah yang mayoritas bekerja sebagai petani atau pekebun, wiraswasta, pedagang dan buruh kerja atau karyawan. Jumlah penghasilan per bulan yang mereka dapat bervariatif, ada yang kurang dari 1 juta, 1-2 juta, 2-3 juta, dan ada 3 juta keatas. Data survei menunjukkan bahwa 28% warga meraih penghasilan dibawah 1 juta, 37% warga berpenghasilan 1-2 juta, 18% warga berpenghasilan 2 hingga 3 juta dan 17% sisanya mendapatkan penghasilan diatas 3 juta. Meskipun hanya 28% warga yang memiliki penghasilan dibawah 1 juta, namun ada beberapa dari mereka yang memiliki kisaran pendapatan dibawah rata-rata dan beberapa waktu tidak mendapatkan penghasilan dalam satu bulan. Hal ini dikarenakan masih banyak warga yang berpenghasilan tidak menentu akibat kondisi pekerjaan mereka yang tidak stabil. Sementara itu, untuk proses pengeluaran dana yang mereka keluarkan sangat bervariatif juga. Ada yang pengeluarannya stabil dan ada juga sebagian warga yang pengeluarannya melebihi pendapatannya sendiri. Hal ini terjadi akibat banyaknya tanggungan yang harus mereka keluarkan seperti kreditan motor atau barang, biaya uang jajan anak mereka yang bersekolah, serta untuk membayar hutang-hutang yang biasanya merekamiliki.
         </p>
       </div>
     </div>
-    <div class="card px-0">
+    {{-- <div class="card px-0">
       <div class="card-body pb-0 pt-3 bg-transparent">
         <i class="fa text-warning fa-envira" aria-hidden="true"></i>
         <h5 class="text-capitalize">Kondisi Pemerintah Kampung</h5>
@@ -113,10 +113,9 @@ Profil Desa
           <li>	Struktur Organisasi Pemerintah Kampung (SOPK)
           Struktur Organisasi Kampung Biatan Bapinang Kecamatan Biatan selengkapnya disajikan dalam gambar sebagai berikut :
           </li>
-          <button class="btn btn-warning mt-3">Lihat Gambar</button>
         </ul>
       </div>
-    </div>
+    </div> --}}
   </div>
 </div>
 
@@ -124,9 +123,10 @@ Profil Desa
 <div class="card mt-4">
   <div class="card-body pt-3 bg-transparent">
     <i class="fa text-warning fa-sitemap" aria-hidden="true"></i>
-    <h5>Struktur Organisasi Pemerintahan Kampung Biatan Bapinang</h5>
+    <h5>Struktur Organisasi Pemerintahan Kampung Biatan Lempake</h5>
     <div class="row mt-4">
       <div class="col-lg-6 mb-lg-0 mb-4">
+        {{-- Pusat --}}
         <div class="card shadow-none">
           <div class="card-header text-uppercase pb-2 pt-2 ps-3 font-weight-bold bg-success text-white">
           Pemerintahan Pusat
@@ -137,23 +137,43 @@ Profil Desa
                 <tbody>
                   <tr>
                     <td class="align-middle text-sm">Kepala Kampung</td>
-                    <td class="align-middle text-sm">: Heberly</td>
+                    <td class="align-middle text-sm">: Muliadi</td>
                   </tr>
                   <tr>
                     <td class="align-middle text-sm">Sekretaris Kampung</td>
-                    <td class="align-middle text-sm">: Rifka Philipus</td>
+                    <td class="align-middle text-sm">: Paisal Tulakbar</td>
                   </tr>
                   <tr>
-                    <td class="align-middle text-sm">Kaur Pemerintahan</td>
-                    <td class="align-middle text-sm">: Septi Eunike. R</td>
+                    <td class="align-middle text-sm">Irmayanti</td>
+                    <td class="align-middle text-sm">: Kasi Pemerintahan</td>
                   </tr>
                   <tr>
-                    <td class="align-middle text-sm">Kaur Umum</td>
-                    <td class="align-middle text-sm">: Chandra Hariyadi</td>
+                    <td class="align-middle text-sm">Rian Feby</td>
+                    <td class="align-middle text-sm">: Kasi Pelayanan</td>
                   </tr>
                   <tr>
-                    <td class="align-middle text-sm">Kaur Pembangunan</td>
-                    <td class="align-middle text-sm">: Marten</td>
+                    <td class="align-middle text-sm">Patimah Nabilawati</td>
+                    <td class="align-middle text-sm">: Kasi Kesejahteraan</td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-sm">Sarintan</td>
+                    <td class="align-middle text-sm">: Kaur TU & Umum</td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-sm">Karina</td>
+                    <td class="align-middle text-sm">: Kaur Keuangan</td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-sm">Andi Nurhayati</td>
+                    <td class="align-middle text-sm">: Kaur Perencanaan</td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-sm">Surtina Sisnawati</td>
+                    <td class="align-middle text-sm">: Staff Administrasi</td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-sm">Kasma Ernawati</td>
+                    <td class="align-middle text-sm">: Staff Perpustakaan</td>
                   </tr>
                 </tbody>
               </table>
@@ -162,6 +182,7 @@ Profil Desa
         </div>
       </div>
       <div class="col-lg-6 mb-lg-0 mb-4">
+        {{-- BPK --}}
         <div class="card shadow-none">
           <div class="card-header text-uppercase pb-2 pt-2 ps-3 font-weight-bold bg-success text-white">
           Badan Permusyawaratan Kampung
@@ -173,25 +194,27 @@ Profil Desa
                   <tr>
                     <td class="align-middle text-sm">Kepala BPK</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Cupin Yusak</td>
+                    <td class="align-middle text-sm">Andi Suwardi</td>
                   </tr>
                   <tr>
                     <td class="align-middle text-sm">Wakil Ketua</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Sukarman</td>
+                    <td class="align-middle text-sm">Anjas</td>
                   </tr>
                   <tr>
                     <td class="align-middle text-sm">Sekretsris</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Sabar</td>
+                    <td class="align-middle text-sm">Mariani</td>
                   </tr>
                   <tr>
                     <td class="align-middle text-sm">Anggota</td>
                     <td class="align-middle text-sm">:</td>
                     <td class="align-middle text-sm">
-                      Evi Septi Miri Dewi
+                      Ida Royani
                       <br>
-                      Marlinda Klaberi
+                      Santalia
+                      <br>
+                      Irmayanti
                     </td>
                   </tr>
                 </tbody>
@@ -203,6 +226,7 @@ Profil Desa
     </div>
     <div class="row mt-lg-4 mt-0">
       <div class="col-lg-6 mb-lg-0 mb-4">
+        {{-- LPM --}}
         <div class="card mb-4 shadow-none">
           <div class="card-header text-uppercase pb-2 pt-2 ps-3 font-weight-bold bg-success text-white">
           Lembaga Pemberdayaan Masyarakat
@@ -213,108 +237,26 @@ Profil Desa
                 <tbody>
                   <tr>
                     <td class="align-middle text-sm">Kepala LPM</td>
-                    <td class="align-middle text-sm">: Heberly</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Wakil Ketua</td>
-                    <td class="align-middle text-sm">: Amos Pangeran</td>
+                    <td class="align-middle text-sm">: Lalu Solihin</td>
                   </tr>
                   <tr>
                     <td class="align-middle text-sm">Sekretaris</td>
-                    <td class="align-middle text-sm">: Yudha Timor</td>
+                    <td class="align-middle text-sm">: Bahriyati</td>
                   </tr>
                   <tr>
                     <td class="align-middle text-sm">Bendahara</td>
-                    <td class="align-middle text-sm">: Karim Mika</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Seksi Agama</td>
-                    <td class="align-middle text-sm">: Sultan</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Seksi Keamanan, Ketentraman & Ketertiban</td>
-                    <td class="align-middle text-sm">: Juhari</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Seksi Pendidikan</td>
-                    <td class="align-middle text-sm">: Sulkarnain</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Seksi Lingkungan Hidup</td>
-                    <td class="align-middle text-sm">: Julius</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Seksi Kesehatan</td>
-                    <td class="align-middle text-sm">: Nuradawiyah</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Seksi Pemuda, Olahraga dan Kesenian</td>
-                    <td class="align-middle text-sm">: Nasir</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Seksi Pembangunan dan Ekonomi</td>
-                    <td class="align-middle text-sm">: Sarwo</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Seksi Kesejahteraan Sosial</td>
-                    <td class="align-middle text-sm">: Jamma</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Seksi Pemberdayaan Wanita</td>
-                    <td class="align-middle text-sm">: Yuyun Yunarti</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-4 shadow-none">
-          <div class="card-header text-uppercase pb-2 pt-2 ps-3 font-weight-bold bg-success text-white">
-          Pengurus Posyandu
-          </div>
-          <div class="card-body pb-0 pt-2 ps-3">
-            <div class="table-responsive">
-              <table class="table-borderless align-items-center mb-2">
-                <tbody>
-                  <tr>
-                    <td class="align-middle text-sm">Ketua</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Nursibah</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Sekretaris</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Malah</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Bendahara</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Erni</td>
+                    <td class="align-middle text-sm">: Andi Muslimin</td>
                   </tr>
                   <tr>
                     <td class="align-middle text-sm">Anggota</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">
-                      Ny.Suryani
-                      <br>
-                      Ny.Senna Hati
-                      <br>
-                      Ny.Santi
-                      <br>
-                      Ny.Aisyah
-                      <br>
-                      Ny.Munjayana
-                      <br>
-                      Ny.Rika Jasmani
-                      <br>
-                      Ny.Basso Ibrahim
-                    </td>
+                    <td class="align-middle text-sm">: Edi Sukiman</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
         </div>
+        {{-- Karangtaruna --}}
         <div class="card mb-4 shadow-none">
           <div class="card-header text-uppercase pb-2 pt-2 ps-3 font-weight-bold bg-success text-white">
           Karang Taruna
@@ -326,94 +268,37 @@ Profil Desa
                   <tr>
                     <td class="align-middle text-sm">Ketua</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Yudha Timor</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Wakil Ketua</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Yohanis</td>
+                    <td class="align-middle text-sm">Andi Heri</td>
                   </tr>
                   <tr>
                     <td class="align-middle text-sm">Sekretaris I</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Jayadi Arianto</td>
+                    <td class="align-middle text-sm">Abdul Kadir</td>
                   </tr>
                   <tr>
-                    <td class="align-middle text-sm">Sekretaris II</td>
+                    <td class="align-middle text-sm">Bendahara</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Dewi</td>
+                    <td class="align-middle text-sm">Edi Sudiro</td>
                   </tr>
                   <tr>
-                    <td class="align-middle text-sm">Bendahara I</td>
+                    <td class="align-middle text-sm">Seksi Keagamaan</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Jamil</td>
+                    <td class="align-middle text-sm">Muhammad Fajri</td>
                   </tr>
                   <tr>
-                    <td class="align-middle text-sm">Bendahara II</td>
+                    <td class="align-middle text-sm">Seksi Olahraga</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Mardiana</td>
+                    <td class="align-middle text-sm">Andri</td>
                   </tr>
                   <tr>
-                    <td class="align-middle text-sm">Anggota</td>
+                    <td class="align-middle text-sm">Seksi Humas</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-        <div class="card shadow-none">
-          <div class="card-header text-uppercase pb-2 pt-2 ps-3 font-weight-bold bg-success text-white">
-          Kelompok Sadar Wisata
-          </div>
-          <div class="card-body pb-0 pt-2 ps-3">
-            <div class="table-responsive">
-              <table class="table-borderless align-items-center mb-2">
-                <tbody>
-                  <tr>
-                    <td class="align-middle text-sm">Ketua</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Wandra Hardianti</td>
+                    <td class="align-middle text-sm">Haikal</td>
                   </tr>
                   <tr>
-                    <td class="align-middle text-sm">Wakil Ketua</td>
+                    <td class="align-middle text-sm">Seksi Kesenian</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ikhsan Yunus</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Sekretaris I</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Yuliana Marsyiah</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Sekretaris II</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Basso Ibrahim</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Bendahara I</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Supriyono</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Seksi-seksi</td>
-                  </tr>
-                  <tr class="">
-                    <td class="align-middle text-sm ps-1">• Seksi Atraksi Wisata dan Budaya</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Jamil</td>
-                  </tr>
-                  <tr class="">
-                    <td class="align-middle text-sm ps-1">• Seksi Kebersihan dan Keindahan</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Mashudi</td>
-                  </tr>
-                  <tr class="">
-                    <td class="align-middle text-sm ps-1">• Seksi Pendidikan dan Usaha</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Marten Yohanis</td>
+                    <td class="align-middle text-sm">Heri Setiawan	</td>
                   </tr>
                 </tbody>
               </table>
@@ -422,6 +307,7 @@ Profil Desa
         </div>
       </div>
       <div class="col-lg-6 mb-lg-0">
+        {{-- Ketua RT --}}
         <div class="card mb-4 shadow-none">
           <div class="card-header text-uppercase pb-2 pt-2 ps-3 font-weight-bold bg-success text-white">
           Ketua RT
@@ -442,11 +328,28 @@ Profil Desa
                     <td class="align-middle text-sm">Ketua RT 03</td>
                     <td class="align-middle text-sm">: Darwis</td>
                   </tr>
+                  <tr>
+                    <td class="align-middle text-sm">Ketua RT 04</td>
+                    <td class="align-middle text-sm">: Misrawati</td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-sm">Ketua RT 05</td>
+                    <td class="align-middle text-sm">: Edhy Djunaedy</td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-sm">Ketua RT 06</td>
+                    <td class="align-middle text-sm">: Andi Suhayadi</td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-sm">Ketua RT 07</td>
+                    <td class="align-middle text-sm">: Nadira</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
           </div>
         </div>
+        {{-- TP PKK --}}
         <div class="card shadow-none">
           <div class="card-header text-uppercase pb-2 pt-2 ps-3 font-weight-bold bg-success text-white">
           Pengurus Tim Penggerak PKK Kampung
@@ -458,153 +361,32 @@ Profil Desa
                   <tr>
                     <td class="align-middle text-sm">Ketua</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny. Nurhayaty Heberly</td>
+                    <td class="align-middle text-sm">May Suriati</td>
                   </tr>
                   <tr>
-                    <td class="align-middle text-sm">Wakil Ketua</td>
+                    <td class="align-middle text-sm">Wakil Ketua I</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Evi Septi Miri Dewi Yudhda</td>
+                    <td class="align-middle text-sm">Saripah</td>
                   </tr>
                   <tr>
-                    <td class="align-middle text-sm">Sekretaris</td>
+                    <td class="align-middle text-sm">Wakil Ketua II</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Rifka</td>
+                    <td class="align-middle text-sm">Santalia</td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle text-sm">Sekretaris I</td>
+                    <td class="align-middle text-sm">:</td>
+                    <td class="align-middle text-sm">Karina</td>
                   </tr>
                   <tr>
                     <td class="align-middle text-sm">Sekretaris II</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Jenny</td>
+                    <td class="align-middle text-sm">Mariani</td>
                   </tr>
                   <tr>
                     <td class="align-middle text-sm">Bendahara</td>
                     <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Ida Laila Royana Chandra</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Pokja I</td>
-                  </tr>
-                  <tr class="">
-                    <td class="align-middle text-sm ps-1">• Ketua</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Hj.Sanawia</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm ps-1">• Sekretaris</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Septi Eunika R Bernov</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm ps-1">• Anggota</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">
-                      Ny.Maslina Amos Pangeran
-                      <br>
-                      Ny.Samsi
-                      <br>
-                      Ny.Milati
-                      <br>
-                      Ny.Noftiani
-                      <br>
-                      Ny.Mirna
-                      <br>
-                      Ny.Hayati
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Pokja II</td>
-                  </tr>
-                  <tr class="">
-                    <td class="align-middle text-sm ps-1">• Ketua</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Asimah</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm ps-1">• Sekretaris</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Kasmawati</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm ps-1">• Anggota</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">
-                      Ny.Sumi
-                      <br>
-                      Ny.Mariana
-                      <br>
-                      Ny.Besse Nuraini
-                      <br>
-                      Ny.Yunarti
-                      <br>
-                      Ny.Darlia
-                      <br>
-                      Ny.Jumaida
-                      <br>
-                      Ny.Sandra
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Pokja III</td>
-                  </tr>
-                  <tr class="">
-                    <td class="align-middle text-sm ps-1">• Ketua</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Lusia Wiwin</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm ps-1">• Sekretaris</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Marsiah</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm ps-1">• Anggota</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">
-                      Ny.Rika Jasmani
-                      <br>
-                      Ny.Hajriwati
-                      <br>
-                      Ny.Endang
-                      <br>
-                      Ny.Munjayana
-                      <br>
-                      Ny.Mardiana
-                      <br>
-                      Ny.Nasra
-                      <br>
-                      Ny.Seri Wati
-                      <br>
-                      Ny.Wagiah
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm">Pokja IV</td>
-                  </tr>
-                  <tr class="">
-                    <td class="align-middle text-sm ps-1">• Ketua</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Erni</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm ps-1">• Sekretaris</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">Ny.Nursibah</td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle text-sm ps-1">• Anggota</td>
-                    <td class="align-middle text-sm">:</td>
-                    <td class="align-middle text-sm">
-                      Ny.Dewi
-                      <br>
-                      Ny.Mala
-                      <br>
-                      Ny.Ratna Ramli
-                      <br>
-                      Ny.Aisyah
-                      <br>
-                      Ny.Senna Hati
-                      <br>
-                      Ny.Suryani
-                    </td>
+                    <td class="align-middle text-sm">Aswinda</td>
                   </tr>
                 </tbody>
               </table>
@@ -622,33 +404,33 @@ Profil Desa
     <div class="card px-0">
       <div class="card-body pb-0 pt-3 bg-transparent">
         <i class="fa text-warning fa-map-marker" aria-hidden="true"></i>
-        <h5 class="text-capitalize">Letak Geografis</h5>
-        <p>Kampung   Biatan   Bapinang   merupakansatu diantara  delapan Kampung di Kecamatan Biatan Kabupaten Berau Propinsi Kalimantan Timur. </p>
+        <h5 class="text-capitalize">Demografi dan Letak Geografis</h5>
+        <p>Kampung Biatan Lempake merupakan salah satu kampung yang terdapat di Kecamatan Biatan Kabupaten Berau Provinsi Kalimantan Timur dengan kondisi bujur berada pada 118.012106 dan koordinat lintang berada pada titik 1.669031 dengan luas wilayah di perkirakan sekitar 10.323 Ha. Dengan ketinggian dari permukaan laut dan merupakan daerah pesisir.</p>
         <div class="row">
           <div class="col-lg-5 mb-lg-0 mb-4">
             <ol class="ps-3">
-              <li class="font-weight-bold">Batas-batas wilayah sebagai berikut:</li>
+              <li class="font-weight-bold">Kampung Biatan Lempake merupakan salah satu dari 8 Kampung di Kecamatan Biatan Kabupaten Berau Provinsi Kalimantan Timur. Luas wilayah Kampung Biatan Lempake adalah sebagai berikut:</li>
               <table class="table-borderless">
                 <tbody>
                   <tr>
                     <td>• Sebelah Utara</td>
                     <td>:</td>
-                    <td class="ps-1">Tabalar Muara</td>
+                    <td class="ps-1">Laut</td>
                   </tr>
                   <tr>
                     <td>• Sebelah Timur</td>
                     <td>:</td>
-                    <td class="ps-1">Kampung Biatan Lempake <br> Biatan Biru</td>
+                    <td class="ps-1">Kampung Karangan</td>
                   </tr>
                   <tr>
                     <td>• Sebelah Barat</td>
                     <td>:</td>
-                    <td class="ps-1">Kampung Tabalar Ulu</td>
+                    <td class="ps-1">Kampung Biatan Bapinang</td>
                   </tr>
                   <tr>
                     <td>• Sebelah Selatan</td>
                     <td>:</td>
-                    <td class="ps-1">Kutai Timur</td>
+                    <td class="ps-1">Kampung Biatan Ulu</td>
                   </tr>
                 </tbody>
               </table>
@@ -660,34 +442,44 @@ Profil Desa
               <table class="table-borderless">
                 <tbody>
                   <tr>
-                    <td>• Jarak Kampung ke ibu kota Kecamatan</td>
+                    <td>• Jarak Kampung ke Kecamatan</td>
                     <td>:</td>
-                    <td class="ps-1">8 Km</td>
+                    <td class="ps-1">1 Km</td>
                   </tr>
                   <tr>
-                    <td>• Lama tempuh ke ibu kota kecamatan</td>
+                    <td>• Lama tempuh ke kecamatan</td>
                     <td>:</td>
                     <td class="ps-1">15 menit</td>
                   </tr>
                   <tr>
-                    <td>• Kendaraan umum ke ibu kota kecamatan</td>
+                    <td>• Kendaraan umum ke kecamatan</td>
                     <td>:</td>
-                    <td class="ps-1">Kendaraan Darat</td>
+                    <td class="ps-1">Sepeda Motor</td>
                   </tr>
                   <tr>
-                    <td>• Jarak ke ibu Kota Kecamatan</td>
+                    <td>• Biaya dari Kampung ke kecamatan</td>
                     <td>:</td>
-                    <td class="ps-1">125 Km</td>
+                    <td class="ps-1">Rp 20.000,-pp</td>
                   </tr>
                   <tr>
-                    <td>• Lama tempuh ke ibu Kota Kabupaten</td>
+                    <td>• Jarak ke Kabupaten</td>
                     <td>:</td>
-                    <td class="ps-1">240 menit</td>
+                    <td class="ps-1">142 Km</td>
                   </tr>
                   <tr>
-                    <td>• Kendaraan umum ke ibu kota Kabupaten</td>
+                    <td>• Lama tempuh ke Kabupaten</td>
                     <td>:</td>
-                    <td class="ps-1">Kendaraan Darat</td>
+                    <td class="ps-1">360 menit</td>
+                  </tr>
+                  <tr>
+                    <td>• Kendaraan umum ke Kabupaten</td>
+                    <td>:</td>
+                    <td class="ps-1">Taksi (Kendaraan Sejenis)</td>
+                  </tr>
+                  <tr>
+                    <td>• Biaya dari kampung ke Kabupaten</td>
+                    <td>:</td>
+                    <td class="ps-1">Rp 200.000,-pp</td>
                   </tr>
                 </tbody>
               </table>
@@ -707,33 +499,22 @@ Profil Desa
     <div class="row mt-4">
       <div class="col-lg-12 mb-lg-0">
         <h6><i class="fa text-success fa-road me-2" aria-hidden="true"></i>Jalan</h6>
-        <p>Jaringan jalan yang ada di Kampung Biatan Bapinang yaitu jalan pemukiman RT.01 dan 02 yang merupakan jalan poros Tanjung Redeb-Talisayan. Jalan pemukiman yang lebar dan dapat dilalui oleh mobil. Sedangkan jalan emukiman RT.03 merupakan jalan menuju wisata Air Panas. Pembangunan jalan Biata Bapinang fokus pada peningkatan jalan usaha tani, serta oenimbunan dengan pasir dan batu (sirtu)</p>
         <table class="table-borderless">
           <tbody>
             <tr>
-              <td class="ps-1">• Panjang jalan poros</td>
+              <td class="ps-1">• Jalan Sertu/Tanah</td>
               <td>:</td>
-              <td class="ps-1">5 km</td>
+              <td class="ps-1">25 m/km</td>
             </tr>
             <tr>
-              <td class="ps-1">• Panjang jalan kampung</td>
+              <td class="ps-1">• Jalan Aspal Kampung</td>
               <td>:</td>
-              <td class="ps-1">4 km</td>
+              <td class="ps-1">1.700 m/km</td>
             </tr>
             <tr>
-              <td class="ps-1">• Panjang jalan kampung yang baik</td>
+              <td class="ps-1">• Jalan Usaha Tani</td>
               <td>:</td>
-              <td class="ps-1">2 km</td>
-            </tr>
-            <tr>
-              <td class="ps-1">• Panjang jalan kampung yang rusak</td>
-              <td>:</td>
-              <td class="ps-1">2 km</td>
-            </tr>
-            <tr>
-              <td class="ps-1">• Panjang jalan poros yang rusak</td>
-              <td>:</td>
-              <td class="ps-1">2 km</td>
+              <td class="ps-1">15 m/km</td>
             </tr>
           </tbody>
         </table>
@@ -747,12 +528,12 @@ Profil Desa
             <tr>
               <td class="ps-2">• Gedung SD</td>
               <td>:</td>
-              <td class="ps-1">1 Unit 3 ruangan </td>
+              <td class="ps-1">1 Unit</td>
             </tr>
             <tr>
               <td class="ps-2">• Gedung SMP</td>
               <td>:</td>
-              <td class="ps-1">1 Unit 14 ruangan </td>
+              <td class="ps-1">1 Unit</td>
             </tr>
             <tr>
               <td class="ps-2">• Gedung SMA</td>
@@ -760,49 +541,9 @@ Profil Desa
               <td class="ps-1">-</td>
             </tr>
             <tr>
-              <td class="ps-2">• Gedung PAUD</td>
-              <td>:</td>
-              <td class="ps-1">1 Unit 3 ruangan </td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Gedung TK</td>
-              <td>:</td>
-              <td class="ps-1">-</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Gedung TPA</td>
+              <td class="ps-2">• Gedung TK/PAUD</td>
               <td>:</td>
               <td class="ps-1">1 Unit</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Guru SD</td>
-              <td>:</td>
-              <td class="ps-1">12 Orang</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Guru SMP</td>
-              <td>:</td>
-              <td class="ps-1">13 Orang</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Guru SMA</td>
-              <td>:</td>
-              <td class="ps-1">-</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Guru PAUD</td>
-              <td>:</td>
-              <td class="ps-1">5 Orang</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Guru TK</td>
-              <td>:</td>
-              <td class="ps-1">-</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Guru TPA</td>
-              <td>:</td>
-              <td class="ps-1">5 Orang</td>
             </tr>
           </tbody>
         </table>
@@ -812,39 +553,19 @@ Profil Desa
         <table class="table-borderless">
           <tbody>
             <tr>
-              <td class="ps-2">• Gedung Puskesmas Pembantu</td>
-              <td>:</td>
-              <td class="ps-1">1 Unit</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Gedung Polindes</td>
+              <td class="ps-2">• Gedung Puskesmas</td>
               <td>:</td>
               <td class="ps-1">1 Unit</td>
             </tr>
             <tr>
               <td class="ps-2">• Gedung Posyandu</td>
               <td>:</td>
-              <td class="ps-1">1 Unit</td>
+              <td class="ps-1">3 Unit</td>
             </tr>
             <tr>
-              <td class="ps-2">• Mantri Kesehatan</td>
-              <td>:</td>
-              <td class="ps-1">1 Orang</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Bidan Kesehatan</td>
-              <td>:</td>
-              <td class="ps-1">1 Orang</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Dukun Kesehatan</td>
+              <td class="ps-2">• Puskesdes</td>
               <td>:</td>
               <td class="ps-1">-</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Kader Posyandu</td>
-              <td>:</td>
-              <td class="ps-1">10 Orang</td>
             </tr>
           </tbody>
         </table>
@@ -856,126 +577,156 @@ Profil Desa
         <table class="table-borderless">
           <tbody>
             <tr>
-              <td class="ps-2">• Rumah Penduduk</td>
-              <td>:</td>
-              <td class="ps-1"> </td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Masjid</td>
-              <td>:</td>
-              <td class="ps-1">1 Buah</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Mushola</td>
-              <td>:</td>
-              <td class="ps-1">-</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Gereja Katolik</td>
-              <td>:</td>
-              <td class="ps-1">-</td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Gereja Protestan</td>
-              <td>:</td>
-              <td class="ps-1">1 Unit</td>
-            </tr>
-            <tr>
               <td class="ps-2">• Kantor Kampung</td>
               <td>:</td>
               <td class="ps-1">1 Unit</td>
             </tr>
             <tr>
-              <td class="ps-2">• Balai Kampung</td>
+              <td class="ps-2">• Kantor Kepala Kampung</td>
               <td>:</td>
               <td class="ps-1">1 Unit</td>
             </tr>
             <tr>
-              <td class="ps-2">• Balai Adat</td>
-              <td>:</td>
-              <td class="ps-1"> </td>
-            </tr>
-            <tr>
-              <td class="ps-2">• Penggilingan Padi</td>
+              <td class="ps-2">• Kantor Terpadu</td>
               <td>:</td>
               <td class="ps-1">1 Unit</td>
             </tr>
             <tr>
-              <td class="ps-2">• Lapangan Voli</td>
+              <td class="ps-2">• Kantor BPK</td>
               <td>:</td>
               <td class="ps-1">1 Unit</td>
             </tr>
             <tr>
-              <td class="ps-2">• Lapangan Bulu Tangkis</td>
+              <td class="ps-2">• Kantor Bank (BPD/ BRI/ BNI/DLL) </td>
+              <td>:</td>
+              <td class="ps-1">2 Unit</td>
+            </tr>
+            <tr>
+              <td class="ps-2">• Kantor Pos</td>
               <td>:</td>
               <td class="ps-1">1 Unit</td>
             </tr>
             <tr>
-              <td class="ps-2">• Lapangan Sepak Bola</td>
+              <td class="ps-2">• WC Umum</td>
+              <td>:</td>
+              <td class="ps-1">1 Unit</td>
+            </tr>
+            <tr>
+              <td class="ps-2">• Masjid</td>
+              <td>:</td>
+              <td class="ps-1">3 Unit</td>
+            </tr>
+            <tr>
+              <td class="ps-2">• Gereja</td>
+              <td>:</td>
+              <td class="ps-1">2 Unit</td>
+            </tr>
+            <tr>
+              <td class="ps-2">• Surau</td>
+              <td>:</td>
+              <td class="ps-1">1 Unit</td>
+            </tr>
+            <tr>
+              <td class="ps-2">• Pura</td>
               <td>:</td>
               <td class="ps-1">-</td>
             </tr>
+            <tr>
+              <td class="ps-2">• Balai Pertemuan Adat</td>
+              <td>:</td>
+              <td class="ps-1">1 Unit</td>
+            </tr>
+            <tr>
+              <td class="ps-2">• Gedung Serbaguna</td>
+              <td>:</td>
+              <td class="ps-1">1 Unit</td>
+            </tr>
+            <tr>
+              <td class="ps-2">• TPS Sementara</td>
+              <td>:</td>
+              <td class="ps-1">1 Lokasi</td>
+            </tr>
+
           </tbody>
         </table>
       </div>
       <div class="col-lg-6 mb-lg-0 mb-4">
-        <h6><i class="fa text-success fa-leaf me-2" aria-hidden="true"></i>Pertanian/Perternakan</h6>
         <table class="table-borderless">
           <tbody>
             <tr>
-              <td class="ps-2">• Luas Tanah Padi GOGO Potensi</td>
+              <td class="ps-2">• Lapangan Voli</td>
               <td>:</td>
-              <td class="ps-1">500 Ha</td>
+              <td class="ps-1">2 Lokasi</td>
             </tr>
             <tr>
-              <td class="ps-2">• Luas Tanah Garapan Tahun Ini</td>
+              <td class="ps-2">• Lapangan Sepak Bola</td>
               <td>:</td>
-              <td class="ps-1">150 Ha</td>
+              <td class="ps-1">1 Lokasi</td>
             </tr>
             <tr>
-              <td class="ps-2">• Luas Tanah Pertanian Ladang</td>
+              <td class="ps-2">• Balai Olahraga</td>
               <td>:</td>
-              <td class="ps-1">150 Ha</td>
+              <td class="ps-1">1 Unit</td>
             </tr>
             <tr>
-              <td class="ps-2">• Lahan Perkebunan Kelapa Sawit</td>
+              <td class="ps-2">• Motor Sampah</td>
               <td>:</td>
-              <td class="ps-1">400 Ha</td>
+              <td class="ps-1">1 Unit</td>
             </tr>
             <tr>
-              <td class="ps-2">• Luas Kebun Lada/Merica</td>
+              <td class="ps-2">• Tempat Pemakaman Umum</td>
               <td>:</td>
-              <td class="ps-1">150 Ha</td>
+              <td class="ps-1">2 Lokasi</td>
             </tr>
             <tr>
-              <td class="ps-2">• Luas Kebun Kopi</td>
+              <td class="ps-2">• Gang Semenisasi</td>
               <td>:</td>
-              <td class="ps-1">1 Ha</td>
+              <td class="ps-1">1.115 m</td>
             </tr>
             <tr>
-              <td class="ps-2">• Luas Kebun Kakau</td>
+              <td class="ps-2">• Pos Kamling</td>
               <td>:</td>
-              <td class="ps-1">3 Ha</td>
+              <td class="ps-1">3 Unit</td>
             </tr>
             <tr>
-              <td class="ps-2">• Jumlah Ayam</td>
+              <td class="ps-2">• Tower</td>
               <td>:</td>
-              <td class="ps-1">1150 Ekor</td>
+              <td class="ps-1">2 Unit</td>
             </tr>
             <tr>
-              <td class="ps-2">• Jumlah Bebek</td>
+              <td class="ps-2">• Jembatan Kayu</td>
               <td>:</td>
-              <td class="ps-1">50 Ekor</td>
+              <td class="ps-1">1 Unit</td>
             </tr>
             <tr>
-              <td class="ps-2">• Jumlah Kambing</td>
+              <td class="ps-2">• Jembatan Besi/Beton</td>
               <td>:</td>
-              <td class="ps-1">10 Ekor</td>
+              <td class="ps-1">2 Unit</td>
             </tr>
             <tr>
-              <td class="ps-2">• Jumlah Sapi</td>
+              <td class="ps-2">• Rumah/Balai Adat</td>
               <td>:</td>
-              <td class="ps-1">20 Ekor/td>
+              <td class="ps-1">1 Unit</td>
+            </tr>
+            <tr>
+              <td class="ps-2">• Balai Penyuluhan</td>
+              <td>:</td>
+              <td class="ps-1">1 Unit</td>
+            </tr>
+            <tr>
+              <td class="ps-2">• Dermaga Kayu/Cor</td>
+              <td>:</td>
+              <td class="ps-1">2 Unit</td>
+            </tr>
+            <tr>
+              <td class="ps-2">• PDAM</td>
+              <td>:</td>
+              <td class="ps-1">Ada</td>
+            </tr>
+            <tr>
+              <td class="ps-2">• PLN</td>
+              <td>:</td>
+              <td class="ps-1">Ada</td>
             </tr>
           </tbody>
         </table>
@@ -988,6 +739,19 @@ Profil Desa
 {{-- Card Count --}}
 <h5 class="mt-4 mb-2">Statistik Desa Biatan Lempake</h5>
 <div class="row mb-sm-4">
+  <div class="col-lg-12 mb-lg-0 mb-4">
+    <div class="card h-100">
+      <div class="card-header pb-0 pt-3 bg-transparent">
+        <h6 class="text-capitalize">Keadaan Sosial dan Penduduk</h6>
+        <p class="mb-3">
+          Penduduk Kampung Biatan Lempake berasal dari beragam daerah seperti Jawa, Lombok, Timur, Bugis dan lain sebagainya. Sehingga tradisi-tradisi musyawarah mufakat, gotong royong, kekeluargaan dan kearifan lokal yang lain telah dilakukan sejak berdirinya Kampung Biatan Lempake. Penduduk Biatan Lempake yang Homogen menjadikan hal tersebut menjadi sangat efektif untuk menghindari benturan-benturan antar kelompokmasyarakat.
+          Kampung Biatan Lempake mempunyai jumlah penduduk 2.471 jiwa, yang terdiri dari laki-laki : 1.298 jiwa, perempuan : 1.173 jiwa dan terdiri dari 768 KK terbagi dalam 10 (Sepuluh) wilayah RT
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row mb-sm-4">
   <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
     <div class="card">
       <div class="card-body p-3">
@@ -996,7 +760,7 @@ Profil Desa
             <div class="numbers">
               <p class="text-sm mb-0 text-uppercase font-weight-bold">Total Warga</p>
               <h5 class="font-weight-bolder">
-               716 Jiwa
+               2.471 Jiwa
               </h5>
             </div>
           </div>
@@ -1017,7 +781,7 @@ Profil Desa
             <div class="numbers">
               <p class="text-sm mb-0 text-uppercase font-weight-bold">Total KK</p>
               <h5 class="font-weight-bolder">
-               209 KK
+               768 KK
               </h5>
             </div>
           </div>
@@ -1038,7 +802,7 @@ Profil Desa
             <div class="numbers">
               <p class="text-sm mb-0 text-uppercase font-weight-bold">Laki-Laki</p>
               <h5 class="font-weight-bolder">
-               381 Jiwa
+               1.298 Jiwa
               </h5>
             </div>
           </div>
@@ -1059,7 +823,7 @@ Profil Desa
             <div class="numbers">
               <p class="text-sm mb-0 text-uppercase font-weight-bold">Perempuan</p>
               <h5 class="font-weight-bolder">
-               335 Jiwa
+               1.173 Jiwa
               </h5>
             </div>
           </div>
@@ -1128,29 +892,33 @@ Profil Desa
         <div class="row">
           <div class="col-lg-4 mb-lg-0 mb-4">
             <ul class="mb-0">
-              <li class="text-xs">PSD(Pelajar Sekolah SD)</li>
+              <li class="text-xs">BTK(Belum TK)</li>
+              <li class="text-xs">PTK(Pelajar TK)</li>
+              <li class="text-xs">TPS(Tidak Pernah Sekolah)</li>
+              <li class="text-xs">PSD(Pelajar SD)</li>
               <li class="text-xs">TSD(Tamat SD)</li>
               <li class="text-xs">TTSD(Tidak Tamat SD)</li>
               <li class="text-xs">PSMP(Pelajar SMP)</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 mb-lg-0 mb-4">
+            <ul class="mb-0">
               <li class="text-xs">TSMP(Tamat SMP)</li>
+              <li class="text-xs">PSMA(Pelajar SMA)</li>
+              <li class="text-xs">TSMA(Tamat SMA)</li>
+              <li class="text-xs">TD1 (Tamat Diploma 1)</li>
+              <li class="text-xs">TD2 (Tamat Diploma 2)</li>
+              <li class="text-xs">MD3 (Mahasiswa D3)</li>
             </ul>
           </div>
           <div class="col-lg-4 mb-lg-0 mb-4">
             <ul class="mb-0">
-              <li class="text-xs">TTSMP(Tidak Tamat SMP)</li>
-              <li class="text-xs">PSMU(Pelajar SMU)</li>
-              <li class="text-xs">TSMU(Tamat SMU)</li>
-              <li class="text-xs">TTSMU(Tidak Tamat SMU)</li>
-              <li class="text-xs">M(Mahasiswa)</li>
-            </ul>
-          </div>
-          <div class="col-lg-4 mb-lg-0 mb-4">
-            <ul class="mb-0">
-              <li class="text-xs">D(Diploma)</li>
-              <li class="text-xs">S(Sarjana)</li>
-              <li class="text-xs">Mg/Dr(Magister/Doktor)</li>
-              <li class="text-xs">TTK(Tidak Tamat Kuliah)</li>
-              <li class="text-xs">TPS(Tidak Pernah Sekolah)</li>
+              <li class="text-xs">TD3 (Tamat Diploma 3)</li>
+              <li class="text-xs">TD4 (Tamat Diploma 4)</li>
+              <li class="text-xs">MS1 (Mahasiswa S1)</li>
+              <li class="text-xs">TS1 (Tamat S1)</li>
+              <li class="text-xs">TS2 (Tamat S2)</li>
+              <li class="text-xs">TSLB (Tamat SLB)</li>
             </ul>
           </div>
         </div>
@@ -1164,46 +932,205 @@ Profil Desa
       <div class="card-header pb-0 pt-3 bg-transparent">
         <h6 class="text-capitalize mb-0">Jumlah Penduduk Berdasarkan Pekerjaan</h6>
       </div>
-      <div class="card-body p-3">
-        <div class="chart">
-          <canvas id="bar-chart3" class="chart-canvas" height="300"></canvas>
-        </div>
-        <p class="text-xs ps-1 mb-0 font-weight-bold">Keterangan</p>
-        <div class="row">
-          <div class="col-lg-4 mb-lg-0 mb-4">
-            <ul class="mb-0">
-              <li class="text-xs">SKTS(Sebelum Kerja, Tidak Sekolah)</li>
-              <li class="text-xs">PSD(Pelajar SD)</li>
-              <li class="text-xs">USDTS(Usia SD Tidak Sekolah)</li>
-              <li class="text-xs">PSM(Pelajar SD)</li>
-              <li class="text-xs">USMPTS(Usia SMP Tidak Sekolah)</li>
-              <li class="text-xs">PSMU(Pelajar SMU)</li>
-              <li class="text-xs">USMUTS(Usia SMU Tidak Sekolah)</li>
-            </ul>
-          </div>
-          <div class="col-lg-4 mb-lg-0 mb-4">
-            <ul class="mb-0">
-              <li class="text-xs">M(Mahasiswa)</li>
-              <li class="text-xs">PKeb(Petani Kebun)</li>
-              <li class="text-xs">Nel(Nelayana)</li>
-              <li class="text-xs">Tkay(Tukang Kayu)</li>
-              <li class="text-xs">B(Buruh)</li>
-              <li class="text-xs">P(Pengusaha)</li>
-              <li class="text-xs">AKamp(Aparat Kampung)</li>
-            </ul>
-          </div>
-          <div class="col-lg-4 mb-lg-0 mb-4">
-            <ul class="mb-0">
-              <li class="text-xs">IRT(Ibu Rumah Tangga)</li>
-              <li class="text-xs">KSwa(Karyawan Swasta)</li>
-              <li class="text-xs">PGu(PNS Guru)</li>
-              <li class="text-xs">Pdt(Pendeta)</li>
-              <li class="text-xs">Hon(Honorer)</li>
-              <li class="text-xs">PL(Pekerjaan Lain)</li>
-              <li class="text-xs">TBM(Tidak Bekerja Manual)</li>
-            </ul>
-          </div>
-        </div>
+      <div class="card-body">
+        <table class="table table-bordered align-items-center mb-2">
+          <thead>
+            <tr>
+              <th class="px-2">Pendidikan</th>
+              <th class="px-2">Laki-laki</th>
+              <th class="px-2">Perempuan</th>
+              <th class="px-2">Jumlah</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="align-middle text-sm">Petani</td>
+              <td class="align-middle text-sm">281</td>
+              <td class="align-middle text-sm">9</td>
+              <td class="align-middle text-sm">290</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Buruh Tani</td>
+              <td class="align-middle text-sm">8</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">9</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Pegawai Negeri Sipil</td>
+              <td class="align-middle text-sm">12</td>
+              <td class="align-middle text-sm">14</td>
+              <td class="align-middle text-sm">26</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Pedagang barang kelontong</td>
+              <td class="align-middle text-sm">5</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">6</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Nelayan</td>
+              <td class="align-middle text-sm">48</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">48</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Montir</td>
+              <td class="align-middle text-sm">2</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">2</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Perawat swasta</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">2</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Bidan swasta</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">2</td>
+              <td class="align-middle text-sm">3</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">TNI</td>
+              <td class="align-middle text-sm">2</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">2</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Pengusaha kecil, menengah dan besar</td>
+              <td class="align-middle text-sm">3</td>
+              <td class="align-middle text-sm">2</td>
+              <td class="align-middle text-sm">5</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Guru swasta</td>
+              <td class="align-middle text-sm">5</td>
+              <td class="align-middle text-sm">5</td>
+              <td class="align-middle text-sm">10</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Pedagang Keliling</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">2</td>
+              <td class="align-middle text-sm">3</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Tukang Kayu</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">1</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Karyawan Perusahaan Swasta</td>
+              <td class="align-middle text-sm">213</td>
+              <td class="align-middle text-sm">19</td>
+              <td class="align-middle text-sm">232</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Karyawan Perusahaan Pemerintah</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">1</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Wiraswasta</td>
+              <td class="align-middle text-sm">23</td>
+              <td class="align-middle text-sm">3</td>
+              <td class="align-middle text-sm">27</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Tidak Mempunyai Pekerjaan Tetap</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">1</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Belum Bekerja</td>
+              <td class="align-middle text-sm">213</td>
+              <td class="align-middle text-sm">175</td>
+              <td class="align-middle text-sm">388</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Pelajar</td>
+              <td class="align-middle text-sm">393</td>
+              <td class="align-middle text-sm">339</td>
+              <td class="align-middle text-sm">732</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Ibu Rumah Tangga</td>
+              <td class="align-middle text-sm">5</td>
+              <td class="align-middle text-sm">575</td>
+              <td class="align-middle text-sm">580</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Purnawirawan/Pensiunan</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">1</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Perangkat Desa</td>
+              <td class="align-middle text-sm">8</td>
+              <td class="align-middle text-sm">6</td>
+              <td class="align-middle text-sm">14</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Buruh Harian Lepas</td>
+              <td class="align-middle text-sm">34</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">35</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Pengusaha perdagangan hasil bumi</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">1</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Pemilik usaha hotel dan penginapan lainnya</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">1</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Pemilik usaha warung, rumah makan dan Restoran</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">4</td>
+              <td class="align-middle text-sm">4</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Sopir</td>
+              <td class="align-middle text-sm">19</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">19</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Tukang Kue</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">1</td>
+              <td class="align-middle text-sm">1</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Karyawan Honorer</td>
+              <td class="align-middle text-sm">14</td>
+              <td class="align-middle text-sm">12</td>
+              <td class="align-middle text-sm">26</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Pialang</td>
+              <td class="align-middle text-sm">2</td>
+              <td class="align-middle text-sm">0</td>
+              <td class="align-middle text-sm">2</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-sm">Jumlah</td>
+              <td class="align-middle text-sm">1.298</td>
+              <td class="align-middle text-sm">1.173</td>
+              <td class="align-middle text-sm">2.471</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>

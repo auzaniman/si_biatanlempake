@@ -36,52 +36,13 @@ Keuangan
           <tbody>
             <tr>
               <td>
-                <p class="mb-0 px-3">Pendapatan asli kampung</p>
+                <p class="mb-0 px-3">-</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">Rp. 1.000.000.000</p>
+                <p class="font-weight-bold mb-0">Rp. 0</p>
               </td>
             </tr>
-            <tr>
-              <td>
-                <p class="mb-0 px-3">Bantuan dari pemerintah kabupaten</p>
-              </td>
-              <td>
-                <p class="font-weight-bold mb-0">Rp. 1.000.000.000</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="mb-0 px-3">Bantuan dari pemerintah dan pemerintah provinsi</p>
-              </td>
-              <td>
-                <p class="font-weight-bold mb-0">Rp. 1.000.000.000</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="mb-0 px-3">Sumbangan pihak ke-3</p>
-              </td>
-              <td>
-                <p class="font-weight-bold mb-0">Rp. 200.000.000</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="mb-0 px-3">Pinjaman kampung</p>
-              </td>
-              <td>
-                <p class="font-weight-bold mb-0">Rp. -</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="mb-0 px-3">Total</p>
-              </td>
-              <td>
-                <p class="font-weight-bold mb-0">Rp. 3.200.000.000</p>
-              </td>
-            </tr>
+
 
             <thead style="border-top: 5px solid #dee2e6">
               <tr>
@@ -91,50 +52,10 @@ Keuangan
             </thead>
             <tr>
               <td>
-                <p class="mb-0 px-3">Belanja aparatur kampung</p>
+                <p class="mb-0 px-3">-</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">Rp. 500.000.000</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="mb-0 px-3">Pembangunan infrastruktur</p>
-              </td>
-              <td>
-                <p class="font-weight-bold mb-0">Rp. 1.000.000.000</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="mb-0 px-3">Pembangunan ekonomi</p>
-              </td>
-              <td>
-                <p class="font-weight-bold mb-0">Rp. 500.000.000</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="mb-0 px-3">Pembangunan pendidikan</p>
-              </td>
-              <td>
-                <p class="font-weight-bold mb-0">Rp. 500.000.000</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="mb-0 px-3">Pemberdayaan masyarakat</p>
-              </td>
-              <td>
-                <p class="font-weight-bold mb-0">Rp. 500.000.000</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="mb-0 px-3">Bantuan kepada masyarakat</p>
-              </td>
-              <td>
-                <p class="font-weight-bold mb-0">Rp. 100.000.000</p>
+                <p class="font-weight-bold mb-0">Rp. 0</p>
               </td>
             </tr>
             <tr>
@@ -142,7 +63,7 @@ Keuangan
                 <p class="mb-0 px-3">Total</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">Rp. 3.100.000.000</p>
+                <p class="font-weight-bold mb-0">Rp. 0</p>
               </td>
             </tr>
 
@@ -159,7 +80,7 @@ Keuangan
                 <p class="font-weight-bold mb-0 px-3">Status keuangan</p>
               </td>
               <td class="pb-0">
-                <p class="font-weight-bold mb-0">Surplus</p>
+                <p class="font-weight-bold mb-0">-</p>
               </td>
             </tr>
           </tbody>

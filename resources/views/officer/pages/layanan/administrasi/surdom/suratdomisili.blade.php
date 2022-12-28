@@ -74,17 +74,17 @@ Data Permohonan
                     <h6 class="mb-0 text-xs"><i class="fas fa-check-circle text-success text-xs" aria-hidden="true"></i> Lengkap</h6>
                   </td>
                   @endif
-                  @if ($item->verifikasi_id == "1")
+                  @if ($item->verifikasi == "DITERIMA")
                   <td class="align-middle">
                     <h6 class="mb-0 text-xs"><i class="fas fa-check-circle text-success text-xs" aria-hidden="true"></i> Terverifikasi</h6>
                   </td>
-                  @elseif ($item->verifikasi_id == "2")
+                  @elseif ($item->verifikasi == "DITOLAK")
                   <td class="align-middle">
                     <h6 class="mb-0 text-xs"><i class="fas fa-times-circle text-danger text-xs" aria-hidden="true"></i> Ditolak</h6>
                   </td>
-                  @else
+                  @elseif ($item->verifikasi == "DIPROSES")
                   <td class="align-middle">
-                    <a href="{{route('officer.show_surdom', $item->id)}}" class="btn btn-xs btn-success text-xs mb-0" data-toggle="tooltip" data-original-title="Edit user">
+                    <a href="{{route('officer.show_surdom', $item->id)}}" class="btn btn-xs btn-warning text-xs mb-0" data-toggle="tooltip" data-original-title="Edit user">
                       Verifikasi
                     </a>
                   </td>

@@ -17,8 +17,8 @@ Dashboard Officer
   </div>
 </div>
 
-<h5>Statistik Warga Desa Biatan Lempake</h5>
-<div class="row mb-sm-4">
+{{-- <h5>Statistik Warga Desa Biatan Lempake</h5> --}}
+{{-- <div class="row mb-sm-4">
   <div class="col-lg-6 mb-lg-0 mb-4">
     <div class="card">
       <div class="card-header pb-0 pt-3 bg-transparent">
@@ -90,7 +90,7 @@ Dashboard Officer
       </div>
     </div>
   </div>
-</div>
+</div> --}}
 
 <h5>Total Pelayanan Desa Biatan Lempake</h5>
 <div class="row mb-sm-4">
@@ -235,105 +235,6 @@ Dashboard Officer
 
 @push('chart_dashboard')
 <script>
-  // Chart Total Penduduk
-  var ctx = document
-    .getElementById("line-chart-gradient2")
-    .getContext("2d");
-
-  var gradientStroke1 = ctx.createLinearGradient(0, 230, 0, 50);
-
-  gradientStroke1.addColorStop(1, "rgba(94,114,228,0.2)");
-  gradientStroke1.addColorStop(0.2, "rgba(72,72,176,0.0)");
-  gradientStroke1.addColorStop(0, "rgba(94,114,228,0)"); //purple colors
-
-  var gradientStroke2 = ctx.createLinearGradient(0, 230, 0, 50);
-
-  gradientStroke2.addColorStop(1, "rgba(20,23,39,0.2)");
-  gradientStroke2.addColorStop(0.2, "rgba(72,72,176,0.0)");
-  gradientStroke2.addColorStop(0, "rgba(20,23,39,0)"); //purple colors
-
-  new Chart(ctx, {
-    type: "line",
-    data: {
-      labels: [
-        "1970-1985",
-        "1985-2000",
-        "2000-2005",
-        "2005-2015",
-        "2015-2022",
-      ],
-      datasets: [
-        {
-          label: "Layanan Harian",
-          tension: 0.4,
-          borderWidth: 0,
-          pointRadius: 0,
-          borderColor: "#5e72e4",
-          borderWidth: 3,
-          backgroundColor: gradientStroke1,
-          fill: true,
-          data: [100,150,250,150,300],
-          maxBarThickness: 6
-        },
-      ]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: {
-          display: false
-        }
-      },
-      interaction: {
-        intersect: false,
-        mode: "index"
-      },
-      scales: {
-        y: {
-          grid: {
-            drawBorder: false,
-            display: true,
-            drawOnChartArea: true,
-            drawTicks: false,
-            borderDash: [5, 5]
-          },
-          ticks: {
-            display: true,
-            padding: 10,
-            color: "#b2b9bf",
-            font: {
-              size: 11,
-              family: "Open Sans",
-              style: "normal",
-              lineHeight: 2
-            }
-          }
-        },
-        x: {
-          grid: {
-            drawBorder: false,
-            display: false,
-            drawOnChartArea: false,
-            drawTicks: false,
-            borderDash: [5, 5]
-          },
-          ticks: {
-            display: true,
-            color: "#b2b9bf",
-            padding: 10,
-            font: {
-              size: 11,
-              family: "Open Sans",
-              style: "normal",
-              lineHeight: 2
-            }
-          }
-        }
-      }
-    }
-  });
-
   // Chart Layanan Harian
   var ctx2 = document
     .getElementById("line-chart-gradient")
@@ -526,6 +427,105 @@ Dashboard Officer
             display: true,
             drawOnChartArea: true,
             drawTicks: true,
+            borderDash: [5, 5]
+          },
+          ticks: {
+            display: true,
+            color: "#b2b9bf",
+            padding: 10,
+            font: {
+              size: 11,
+              family: "Open Sans",
+              style: "normal",
+              lineHeight: 2
+            }
+          }
+        }
+      }
+    }
+  });
+
+  // Chart Total Penduduk
+  var ctx = document
+    .getElementById("line-chart-gradient2")
+    .getContext("2d");
+
+  var gradientStroke1 = ctx.createLinearGradient(0, 230, 0, 50);
+
+  gradientStroke1.addColorStop(1, "rgba(94,114,228,0.2)");
+  gradientStroke1.addColorStop(0.2, "rgba(72,72,176,0.0)");
+  gradientStroke1.addColorStop(0, "rgba(94,114,228,0)"); //purple colors
+
+  var gradientStroke2 = ctx.createLinearGradient(0, 230, 0, 50);
+
+  gradientStroke2.addColorStop(1, "rgba(20,23,39,0.2)");
+  gradientStroke2.addColorStop(0.2, "rgba(72,72,176,0.0)");
+  gradientStroke2.addColorStop(0, "rgba(20,23,39,0)"); //purple colors
+
+  new Chart(ctx, {
+    type: "line",
+    data: {
+      labels: [
+        "1970-1985",
+        "1985-2000",
+        "2000-2005",
+        "2005-2015",
+        "2015-2022",
+      ],
+      datasets: [
+        {
+          label: "Layanan Harian",
+          tension: 0.4,
+          borderWidth: 0,
+          pointRadius: 0,
+          borderColor: "#5e72e4",
+          borderWidth: 3,
+          backgroundColor: gradientStroke1,
+          fill: true,
+          data: [100,150,250,150,300],
+          maxBarThickness: 6
+        },
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: false
+        }
+      },
+      interaction: {
+        intersect: false,
+        mode: "index"
+      },
+      scales: {
+        y: {
+          grid: {
+            drawBorder: false,
+            display: true,
+            drawOnChartArea: true,
+            drawTicks: false,
+            borderDash: [5, 5]
+          },
+          ticks: {
+            display: true,
+            padding: 10,
+            color: "#b2b9bf",
+            font: {
+              size: 11,
+              family: "Open Sans",
+              style: "normal",
+              lineHeight: 2
+            }
+          }
+        },
+        x: {
+          grid: {
+            drawBorder: false,
+            display: false,
+            drawOnChartArea: false,
+            drawTicks: false,
             borderDash: [5, 5]
           },
           ticks: {
