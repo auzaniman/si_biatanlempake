@@ -34,7 +34,7 @@
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="ni ni-building text-primary text-sm"></i>
           </div>
-          <span class="nav-link-text ms-1">Profil Desa</span>
+          <span class="nav-link-text ms-1">Profil Kampung</span>
         </a>
       </li>
       <li class="nav-item">
@@ -103,7 +103,7 @@
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="ni ni-map-big text-primary text-sm"></i>
           </div>
-          <span class="nav-link-text ms-1">Peta Desa</span>
+          <span class="nav-link-text ms-1">Peta Kampung</span>
         </a>
       </li>
       <li class="nav-item">
