@@ -88,14 +88,14 @@
           <span class="nav-link-text ms-1">Peta Kampung</span>
         </a>
       </li>
-      <li class="nav-item">
+      {{-- <li class="nav-item">
         <a class="nav-link nav-active @if (\Request::is('officer/setting')) active @endif" href="{{route('officer.setting')}}">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
             <i class="fa fa-cog text-primary text-sm"></i>
           </div>
           <span class="nav-link-text ms-1">Setting</span>
         </a>
-      </li>
+      </li> --}}
       {{-- <li class="nav-item">
         <a class="nav-link nav-active" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
           <div class="icon icon-shape icon-sm border-radius-md text-center me-1 d-flex align-items-center justify-content-center">
