@@ -7,18 +7,6 @@ Keuangan
 @section('content')
 <div class="row">
   <div class="col-lg-12 mb-lg-0 mb-4">
-    <div class="card h-100">
-      <div class="card-header pb-0 pt-3 bg-transparent">
-        <h6 class="text-capitalize">Keuangan</h6>
-        <p class="mb-3">
-          Di dalam fitur ini menampilkan informasi tentang penggunaan keuangan. Seperti informasi keuangan masjid (dana masuk, dana keluar, saldo) dengan tampilan berupa tabel. Sebagai tambahan infografis, terdapat grafik yang dapat terupdate secara otomatis ketika data di table berubah. Yaitu grafik dana dana masuk, keluar dan saldo. Kemudian grafik prosentase penggunaan, yaitu pembangunan fisik, peningkatan ekonomi, pemberdayaan masyarakat, peningkatan kapasitas, kesehatan, pendidikan, dana sosial.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="row mt-4">
-  <div class="col-lg-12 mb-lg-0 mb-4">
     <div class="card ">
       <div class="card-header pb-0">
         <div class="d-flex justify-content-between">
@@ -84,7 +72,7 @@ Keuangan
                   <p class="mb-0 px-3">{{$item->nama_anggaran}}</p>
                 </td>
                 <td>
-                  <p class="font-weight-bold mb-0"> @currency($item->jumlah_nominal) </p>
+                  <p class="font-weight-bold mb-0">@currency($item->jumlah_nominal)</p>
                 </td>
               </tr>
             @empty
@@ -94,7 +82,13 @@ Keuangan
                 <p class="mb-0 px-3 font-weight-bolder">Total</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">@currency($get_total_pendapatan)</p>
+                <p class="font-weight-bold mb-0">
+                  @if ($get_total_pendapatan == 0)
+                    -
+                  @else
+                    @currency($get_total_pendapatan)
+                  @endif
+                </p>
               </td>
             </tr>
 
@@ -120,7 +114,11 @@ Keuangan
                 <p class="mb-0 px-3 font-weight-bolder">Total</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">@currency($get_total_pengeluaran)</p>
+                @if ($get_total_pengeluaran == 0)
+                    -
+                  @else
+                    @currency($get_total_pengeluaran)
+                  @endif
               </td>
             </tr>
 
@@ -129,7 +127,11 @@ Keuangan
                 <p class="font-weight-bold mb-0 px-3">Sisa Keuangan Desa</p>
               </td>
               <td>
-                <p class="font-weight-bold mb-0">@currency($get_sisa_keuangan)</p>
+                @if ($get_sisa_keuangan == 0)
+                    -
+                  @else
+                    @currency($get_sisa_keuangan)
+                  @endif
               </td>
             </tr>
             <tr>
