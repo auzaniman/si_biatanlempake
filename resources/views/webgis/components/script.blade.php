@@ -13,16 +13,16 @@
   <script src="{{url('backend/plugin/Magnific/dist/magnific-popup/jquery.magnific-popup.js')}}"></script>
 
   {{-- GIS --}}
-  {{--  <script src="{{url('webgis/resources/qgis2web_expressions.js')}}"></script>
+   {{-- <script src="{{url('webgis/resources/qgis2web_expressions.js')}}"></script> --}}
   <script src="{{url('webgis/resources/polyfills.js')}}"></script>
   <script src="{{url('webgis/resources/functions.js')}}"></script>
   <script src="{{url('webgis/resources/ol.js')}}"></script>
   <script src="{{url('webgis/resources/ol-layerswitcher.js')}}"></script>
-  <script src="{{url('webgis/layers/BatasKampungBiatanLempake_1.js')}}"></script>
-  <script src="{{url('webgis/styles/BatasKampungBiatanLempake_1_style.js')}}"></script>
+  {{-- <script src="{{url('webgis/layers/BatasKampungBiatanLempake_1.js')}}"></script> --}}
+  {{-- <script src="{{url('webgis/styles/BatasKampungBiatanLempake_1_style.js')}}"></script> --}}
   <script src="{{url('webgis/layers/layers.js')}}" type="text/javascript"></script>
-  <script src="{{url('webgis/resources/Autolinker.min.js')}}"></script>
-  <script src="{{url('webgis/resources/qgis2web.js')}}"></script>  --}}
+  {{-- <script src="{{url('webgis/resources/Autolinker.min.js')}}"></script> --}}
+  <script src="{{url('webgis/resources/qgis2web.js')}}"></script>
 
   <script src="{{ url('webgis/js/qgis2web_expressions.js') }}"></script>
   <script src="{{ url('webgis/js/leaflet.js') }}"></script>

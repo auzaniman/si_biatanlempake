@@ -16,16 +16,171 @@
   <link id="pagestyle" href="{{url('backend/assets/css/argon-dashboard.css?v=2.0.2')}}" rel="stylesheet" />
 
   {{-- GIS --}}
-  {{--  <link rel="stylesheet" href="{{url('webgis/resources/ol.css')}}">
+   <link rel="stylesheet" href="{{url('webgis/resources/ol.css')}}">
   <link rel="stylesheet" href="{{url('webgis/resources/fontawesome-all.min.css')}}">
   <link rel="stylesheet" href="{{url('webgis/resources/ol-layerswitcher.css')}}">
-  <link rel="stylesheet" href="{{url('webgis/resources/qgis2web.css')}}">  --}}
+  {{-- <link rel="stylesheet" href="{{url('webgis/resources/qgis2web.css')}}">  --}}
 
   <link rel="stylesheet" href="{{ url('webgis/css/leaflet.css')}}">
   <link rel="stylesheet" href="{{ url('webgis/css/qgis2web.css')}}">
   <link rel="stylesheet" href="{{ url('webgis/css/fontawesome-all.min.css')}}">
   <link rel="stylesheet" href="{{ url('webgis/css/leaflet-control-geocoder.Geocoder.css')}}">
+
   <style>
+    html, body, #map {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+
+  <style>
+    .ol-geocoder.gcd-gl-container {
+        top: 65px!important;
+        left: .5em!important;
+        width: 2.1em!important;
+        height: 2.1em!important;
+    }
+    .ol-geocoder .gcd-gl-container{
+        width: 2.1em!important;
+        height: 2.1em!important;
+    }
+    .ol-geocoder .gcd-gl-control{
+        width: 2.1em!important;
+    }
+    .ol-geocoder .gcd-gl-expanded {
+        width: 15.625em!important;
+        height: 2.1875em;
+    }
+    .ol-touch .ol-geocoder.gcd-gl-container{
+        top: 80px!important;
+    }
+    .ol-geocoder .gcd-gl-btn {
+        width: 1.375em!important;
+        height: 1.375em!important;
+        top: .225em!important;
+        background-image: none!important;
+    }
+  </style>
+
+  <style>
+    .search-layer {
+      top: 100px;
+      left: .5em;
+    }
+    .ol-touch .search-layer {
+      top: 130px;
+    }
+  </style>
+  <style>
+    .search-layer {
+      top: 135px;
+      left: .5em;
+    }
+    .ol-touch .search-layer {
+      top: 180px;
+    }
+  </style>
+  <style>
+    /* html, body {
+      background-color: #ffffff;
+    } */
+    .ol-control button {
+      background-color: #f8f8f8 !important;
+      color: #000000 !important;
+      border-radius: 0px !important;
+    }
+    .ol-zoom, .geolocate, .gcd-gl-control .ol-control {
+      background-color: rgba(255,255,255,.4) !important;
+      padding: 3px !important;
+    }
+    .ol-scale-line {
+      background: none !important;
+    }
+    .ol-scale-line-inner {
+      border: 2px solid #f8f8f8 !important;
+      border-top: none !important;
+      background: rgba(255, 255, 255, 0.5) !important;
+      color: black !important;
+    }
+  </style>
+  <style>
+    .tooltip {
+      position: relative;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 4px;
+      color: white;
+      padding: 4px 8px;
+      opacity: 0.7;
+      white-space: nowrap;
+    }
+    .tooltip-measure {
+      opacity: 1;
+      font-weight: bold;
+    }
+    .tooltip-static {
+      background-color: #ffcc33;
+      color: black;
+      border: 1px solid white;
+    }
+    .tooltip-measure:before,
+    .tooltip-static:before {
+      border-top: 6px solid rgba(0, 0, 0, 0.5);
+      border-right: 6px solid transparent;
+      border-left: 6px solid transparent;
+      content: "";
+      position: absolute;
+      bottom: -6px;
+      margin-left: -7px;
+      left: 50%;
+    }
+    .tooltip-static:before {
+      border-top-color: #ffcc33;
+    }
+    .measure-control {
+      top: 65px;
+      left: .5em;
+    }
+    .ol-touch .measure-control {
+      top: 80px;
+    }
+  </style>
+
+  <style>
+    @media (min-width: 992px) {
+
+      nav[aria-label="breadcrumb"] {
+        margin-left: 17rem;
+      }
+
+      div .ol-viewport {
+        left: 19.5rem;
+        width: 73% !important;
+        height: 85vh !important;
+      }
+
+      html, body, #map {
+        width: 90%;
+        height: 94%;
+        left: 19.5rem;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  </style>
+
+
+  <style>
+    a span {
+      color: #5a5a5a;
+    }
+
+    p {
+      color: #5a5a5a;
+    }
+  </style>
+  {{-- <style>
     .search-layer {
       top: 100px;
       left: .5em;
@@ -139,4 +294,4 @@
     p {
       color: #5a5a5a;
     }
-  </style>
+  </style> --}}
